@@ -1,26 +1,20 @@
 # ParamProcessor
 
-The ParamProcessor MediaWiki extension, formerly known as Validator, is a parameter processing
+The Validator MediaWiki extension, provides a parameter processing
 framework that provides a way to declaratively define a set of parameters and how they
 should be processed. It can take such declarations together with a list of raw
 parameters and provide the processed values.
 
+The functionality provided by this extension largely comes from the [ParamProcessor library]
+(https://github.com/JeroenDeDauw/ParamProcessor).
+
 [![Build Status](https://secure.travis-ci.org/wikimedia/mediawiki-extensions-Validator.png?branch=master)](http://travis-ci.org/wikimedia/mediawiki-extensions-Validator)
 [![Coverage Status](https://coveralls.io/repos/wikimedia/mediawiki-extensions-Validator/badge.png?branch=master)](https://coveralls.io/r/wikimedia/mediawiki-extensions-Validator?branch=master)
 [![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/wikimedia/mediawiki-extensions-Validator/badges/quality-score.png?s=9160abde6f569a715ca51a3db8c93f3a01bd9e7b)](https://scrutinizer-ci.com/g/wikimedia/mediawiki-extensions-Validator/)
-[![Dependency Status](https://www.versioneye.com/php/param-processor:param-processor/dev-master/badge.png)](https://www.versioneye.com/php/param-processor:param-processor/dev-master)
 
-On [Packagist](https://packagist.org/packages/param-processor/param-processor):
-[![Latest Stable Version](https://poser.pugx.org/param-processor/param-processor/version.png)](https://packagist.org/packages/param-processor/param-processor)
-[![Download count](https://poser.pugx.org/param-processor/param-processor/d/total.png)](https://packagist.org/packages/param-processor/param-processor)
-
-## Requirements
-
-* PHP 5.3 or later
-* MediaWiki 1.18 or later
-* [DataValues](https://www.mediawiki.org/wiki/Extension:DataValues) 0.1 or later
-* [DataValuesInterfaces](https://www.mediawiki.org/wiki/Extension:DataValuesInterfaces) 0.1 or later
-* [DataValuesCommon](https://www.mediawiki.org/wiki/Extension:DataValuesCommon) 0.1 or later
+On [Packagist](https://packagist.org/packages/mediawiki/validator):
+[![Latest Stable Version](https://poser.pugx.org/mediawiki/validator/version.png)](https://packagist.org/packages/mediawiki/validator)
+[![Download count](https://poser.pugx.org/mediawiki/validator/d/total.png)](https://packagist.org/packages/mediawiki/validator)
 
 ## Installation
 
@@ -31,127 +25,39 @@ the git repository and take care of loading yourself.
 ### Composer
 
 To add this package as a local, per-project dependency to your project, simply add a
-dependency on `param-processor/param-processor` to your project's `composer.json` file.
+dependency on `mediawiki/validator` to your project's `composer.json` file.
 Here is a minimal example of a `composer.json` file that just defines a dependency on
-ParamProcessor 1.0:
+Validator 1.0:
 
     {
         "require": {
-            "param-processor/param-processor": "1.0.*"
+            "mediawiki/validator": "1.0.*"
         }
     }
 
 ### Manual
 
-Get the ParamProcessor code, either via git, or some other means. Also get all dependencies.
+Get the Validator code, either via git, or some other means. Also get all dependencies.
 You can find a list of the dependencies in the "require" section of the composer.json file.
-Load all dependencies and the load the ParamProcessor library by including its entry point:
-ParamProcessor.php.
-
-### As MediaWiki extension
-
-ParamProcessor can be installed as MediaWiki extension.
+Load all dependencies and the load the Validator extension by including its entry point:
+Validator.php.
 
 Simply include the entry point in your LocalSettings.php file:
 
 	require_once( "$IP/extensions/Validator/Validator.php" );
 
-## Concept
-
-The goal of the ParamProcessor library is to make parameter handling simple and consistent.
-
-In order to achieve this, a declarative API for defining parameters is provided. Passing in
-such parameter definitions together with a list of raw input into the processor leads to
-a processed list of parameters. Processing consists out of name and alias resolving, parsing,
-validation, formatting and defaulting.
-
-If ones defines an "awesomeness" parameter of type "integer", one can be sure that at the end
-of the processing, there will be an integer value for the awesomeness parameter. If the user did
-not provide a value, or provided something that is invalid, while the parameter it is required,
-processing will abort with a fatal error. If on the other hand there is a default, the default will
-be set. If the value was invalid, a warning will be kept track of. In case the user provides a valid
-value, for instance "42" (string), it will be turned in the appropriate 42 (int).
-
-## Implementation structure
-
-Parameters are defined using the ParamProcessor\ParamDefinition class. Users can also use the array
-format to define parameters and not be bound to this class. At present, it is prefered to use this
-array format as the class itself is not stable yet.
-
-Processing is done via ParamProcessor\Processor.
-
-## Defining parameters
-
-### Array definition schema
-
-* type, string enum
-* islist, boolean
-* default, mixed, param will be required when null/omitted
-* values, array, allowed values
-* message, string, required for now
-
-## Examples
-
-### Parameter definitions
-
-```php
-$paramDefintions = array();
-
-$paramDefintions[] = array(
-    'name' => 'username',
-);
-
-$paramDefintions[] = array(
-    'name' => 'job',
-    'default' => 'unknown',
-    'values' => array( 'Developer', 'Designer', 'Manager', 'Tester' ),
-);
-
-$paramDefintions[] = array(
-    'name' => 'favourite-numbers',
-    'islist' => true,
-    'type' => 'int',
-    'default' => array(),
-);
-```
-
-### Processing
-
-```php
-$inputParams = array(
-    'username' => 'Jeroen',
-    'job' => 'Developer',
-);
-
-$processor = ParamProcessor\Processor::newDefault();
-
-$processor->setParameters( $inputParams, $paramDefintions );
-
-$processingResult = $processor->processParameters();
-
-$processedParams = $processingResult->getParameters();
-```
-
-## Tests
-
-This library comes with a set up PHPUnit tests that cover all non-trivial code. You can run these
-tests using the PHPUnit configuration file found in the root directory. The tests can also be run
-via TravisCI, as a TravisCI configuration file is also provided in the root directory.
-
 ## Authors
 
-ParamProcessor has been written by
+Validator has been written by
 [Jeroen De Dauw](https://www.mediawiki.org/wiki/User:Jeroen_De_Dauw)
-to support
-[Maps](https://www.mediawiki.org/wiki/Extension:Maps)
-and
-[Semantic MediaWiki](https://semantic-mediawiki.org/).
+to support [Maps](https://www.mediawiki.org/wiki/Extension:Maps)
+and [Semantic MediaWiki](https://semantic-mediawiki.org/).
 
 ## Release notes
 
 ### Version 1.0 (under development)
 
-ParamProcessor 1.0 is currently in beta-quality and is not recommended for use in
+Validator 1.0 is currently in beta-quality and is not recommended for use in
 production until the actual release.
 
 This release is primarily a redesign of many internal APIs aimed at greater
@@ -159,9 +65,7 @@ stability and cleaner interfaces exposed to the outside.
 
 ##### Compatibility changes
 
-* DataValues 0.1 or higher is now required
-* DataValuesInterfaces 0.1 or higher is now required
-* DataValuesCommon 0.1 or higher is now required
+* The ParamProcessor library is now required, version 1.0 or later.
 * Changed minimum MediaWiki version from 1.16 to 1.18.
 * Full compatibility with MediaWiki 1.20, 1.21, 1.22 and forward-compatibility with 1.23.
 * Added compatibility with PHP 5.4.x and PHP 5.5.x
@@ -339,8 +243,8 @@ Basically everything got rewritten...
 
 ## Links
 
-* [ParamProcessor on Packagist](https://packagist.org/packages/param-processor/param-processor)
+* [ParamProcessor on Packagist](https://packagist.org/packages/mediawiki/validator)
 * [ParamProcessor on Ohloh](https://www.ohloh.net/p/validator)
-* [ParamProcessor on MediaWiki.org](https://www.mediawiki.org/wiki/Extension:ParamProcessor)
+* [ParamProcessor on MediaWiki.org](https://www.mediawiki.org/wiki/Extension:Validator)
 * [TravisCI build status](https://travis-ci.org/wikimedia/mediawiki-extensions-Validator)
 * [Latest version of the readme file](https://github.com/wikimedia/mediawiki-extensions-Validator/blob/master/README.md)

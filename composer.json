@@ -1,5 +1,5 @@
 {
-	"name": "param-processor/validator",
+	"name": "mediawiki/validator",
 	"type": "mediawiki-extension",
 	"description": "MediaWiki wrapper for the ParamProcessor library",
 	"keywords": [
@@ -37,7 +37,7 @@
 	},
 	"autoload": {
 		"files" : [
-			"ParamProcessor.php"
+			"Validator.php"
 		]
 	}
 }
