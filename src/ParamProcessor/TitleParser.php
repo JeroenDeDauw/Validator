@@ -6,12 +6,7 @@ use ValueParsers\ParseException;
 use ValueParsers\StringValueParser;
 
 /**
- * ValueParser that parses the string representation of a Title object.
- *
- * @since 0.1
- *
- * @file
- * @ingroup ValueParsers
+ * ValueParser that parses the string representation of a MediaWiki Title object.
  *
  * @licence GNU GPL v2+
  * @author Jeroen De Dauw < jeroendedauw@gmail.com >
