@@ -12,7 +12,7 @@ if ( defined( 'ParamProcessor_VERSION' ) ) {
 	return 1;
 }
 
-define( 'Validator_VERSION', '1.0' );
+define( 'Validator_VERSION', '1.0.0.1' );
 define( 'ParamProcessor_VERSION', Validator_VERSION ); // @deprecated since 1.0
 
 if ( !defined( 'MEDIAWIKI' ) ) {
@@ -101,9 +101,9 @@ class Validator extends ParamProcessor\Processor {
 }
 
 // utils
-$wgAutoloadClasses['ParserHook']				 	= __DIR__ . '/includes/utils/ParserHook.php';
-$wgAutoloadClasses['ValidatorDescribe']		  		= __DIR__ . '/includes/utils/Describe.php';
-$wgAutoloadClasses['ValidatorListErrors']			= __DIR__ . '/includes/utils/ListErrors.php';
+$wgAutoloadClasses['ParserHook']				 	= __DIR__ . '/src/legacy/ParserHook.php';
+$wgAutoloadClasses['ValidatorDescribe']		  		= __DIR__ . '/src/legacy/Describe.php';
+$wgAutoloadClasses['ValidatorListErrors']			= __DIR__ . '/src/legacy/ListErrors.php';
 
 // Registration of the listerrors parser hooks.
 $wgHooks['ParserFirstCallInit'][] = 'ValidatorListErrors::staticInit';
