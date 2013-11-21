@@ -51,13 +51,14 @@ and [Semantic MediaWiki](https://semantic-mediawiki.org/).
 
 ## Release notes
 
-### Version 1.0 (under development)
-
-Validator 1.0 is currently in beta-quality and is not recommended for use in
-production until the actual release.
+### Version 1.0 (2013-11-21)
 
 This release is primarily a redesign of many internal APIs aimed at greater
 stability and cleaner interfaces exposed to the outside.
+
+Most code has been moved to the new [ParamProcessor library]
+(https://github.com/JeroenDeDauw/ParamProcessor), leaving the Validator extension
+as a thin MediaWiki specific wrapper.
 
 ##### Compatibility changes
 
@@ -70,6 +71,8 @@ stability and cleaner interfaces exposed to the outside.
 ##### Deprecations
 
 * Deprecated the ParserHook class
+* Deprecated the describe parser hook
+* Deprecated the listerrors parser hook
 
 ### Version 0.4.14 (2012-03-10)
 
