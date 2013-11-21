@@ -8,10 +8,6 @@ parameters and provide the processed values.
 The functionality provided by this extension largely comes from the [ParamProcessor library]
 (https://github.com/JeroenDeDauw/ParamProcessor).
 
-[![Build Status](https://secure.travis-ci.org/wikimedia/mediawiki-extensions-Validator.png?branch=master)](http://travis-ci.org/wikimedia/mediawiki-extensions-Validator)
-[![Coverage Status](https://coveralls.io/repos/wikimedia/mediawiki-extensions-Validator/badge.png?branch=master)](https://coveralls.io/r/wikimedia/mediawiki-extensions-Validator?branch=master)
-[![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/wikimedia/mediawiki-extensions-Validator/badges/quality-score.png?s=9160abde6f569a715ca51a3db8c93f3a01bd9e7b)](https://scrutinizer-ci.com/g/wikimedia/mediawiki-extensions-Validator/)
-
 On [Packagist](https://packagist.org/packages/mediawiki/validator):
 [![Latest Stable Version](https://poser.pugx.org/mediawiki/validator/version.png)](https://packagist.org/packages/mediawiki/validator)
 [![Download count](https://poser.pugx.org/mediawiki/validator/d/total.png)](https://packagist.org/packages/mediawiki/validator)
@@ -243,8 +239,6 @@ Basically everything got rewritten...
 
 ## Links
 
-* [ParamProcessor on Packagist](https://packagist.org/packages/mediawiki/validator)
-* [ParamProcessor on Ohloh](https://www.ohloh.net/p/validator)
-* [ParamProcessor on MediaWiki.org](https://www.mediawiki.org/wiki/Extension:Validator)
-* [TravisCI build status](https://travis-ci.org/wikimedia/mediawiki-extensions-Validator)
-* [Latest version of the readme file](https://github.com/wikimedia/mediawiki-extensions-Validator/blob/master/README.md)
+* [Validator on Packagist](https://packagist.org/packages/mediawiki/validator)
+* [Validator on Ohloh](https://www.ohloh.net/p/validator)
+* [Validator on MediaWiki.org](https://www.mediawiki.org/wiki/Extension:Validator)
