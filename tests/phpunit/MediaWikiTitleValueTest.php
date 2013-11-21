@@ -8,12 +8,7 @@ use ParamProcessor\MediaWikiTitleValue;
 /**
  * @covers ParamProcessor\MediaWikiTitleValue
  *
- * @file
- * @since 0.1
- *
- * @ingroup DataValue
- *
- * @group ParamProcessor
+ * @group Validator
  *
  * @licence GNU GPL v2+
  * @author Jeroen De Dauw < jeroendedauw@gmail.com >
