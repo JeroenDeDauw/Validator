@@ -48,10 +48,6 @@ $wgExtensionCredits['other'][] = array(
 	'descriptionmsg' => 'validator-desc',
 );
 
-if ( defined( 'MW_PHPUNIT_TEST' ) ) {
-	require_once __DIR__ . '/tests/testLoader.php';
-}
-
 spl_autoload_register( function ( $className ) {
 	$className = ltrim( $className, '\\' );
 	$fileName = '';
