@@ -1,4 +1,4 @@
-# ParamProcessor
+# Validator
 
 The Validator MediaWiki extension, provides a parameter processing
 framework that provides a way to declaratively define a set of parameters and how they
