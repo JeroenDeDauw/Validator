@@ -772,7 +772,7 @@ $messages['ce'] = array(
 	'validator-describe-parameters' => 'Параметраш',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Matěj Grabovský
  * @author Mormegil
  * @author Reaperman
@@ -839,7 +839,7 @@ $messages['cs'] = array(
 	'validator-message-nodesc' => 'Popis není k dispozici',
 );
 
-/** Church Slavic (словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
+/** Church Slavic (словѣньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
 $messages['cu'] = array(
@@ -2735,7 +2735,7 @@ $messages['nl'] = array(
 	'validator_error_parameters' => 'In uw syntaxis {{PLURAL:$1|is de volgende fout|zijn de volgende fouten}} gedetecteerd:',
 	'validator_warning_parameters' => 'Er {{PLURAL:$1|zit een fout|zitten $1 fouten}} in uw syntaxis.',
 	'validator-warning-adittional-errors' => '... en nog {{PLURAL:$1|een ander probleem|$1 andere problemen}}.',
-	'validator-error-omitted' => 'De {{PLURAL:$2|waarde "$1" mist|waarden "$1" missen}}.',
+	'validator-error-omitted' => 'De {{PLURAL:$2|waarde "$1" ontbreekt|waarden "$1" ontbreken}}.',
 	'validator-error-problem' => 'Er was een probleem met de parameter $1.',
 	'validator_error_unknown_argument' => '$1 is geen geldige parameter.',
 	'validator_error_required_missing' => 'De verplichte parameter $1 is niet opgegeven.',
@@ -2818,7 +2818,7 @@ Als ook $4 weggelaten {{PLURAL:$4|waarde|waarden}}.',
 	'validator-error-accepts-only-omitted' => 'De waarde "$2" is niet geldig voor de parameter $1.
 Alleen deze {{PLURAL:$5|waarde is|waarden zijn}} toegestaan: $3.
 Als ook $4 weggelaten {{PLURAL:$4|waarde|waarden}}.',
-	'validator_list_omitted' => 'De {{PLURAL:$2|waarde|waarden}} $1 {{PLURAL:$2|mist|missen}}.',
+	'validator_list_omitted' => 'De {{PLURAL:$2|waarde|waarden}} $1 {{PLURAL:$2|ontbreekt|ontbreken}}.',
 	'validator-message-nodesc' => 'Geen beschrijving',
 );
 
