@@ -74,7 +74,7 @@ as a thin MediaWiki specific wrapper.
 * Deprecated the describe parser hook
 * Deprecated the listerrors parser hook
 
-### Version 0.5.1 (2013-11-21)
+### Version 0.5.1 (2012-11-21)
 
 * Added compatibility with PHP 5.4.
 
