@@ -74,6 +74,46 @@ as a thin MediaWiki specific wrapper.
 * Deprecated the describe parser hook
 * Deprecated the listerrors parser hook
 
+### Version 0.5.1 (2013-11-21)
+
+* Added compatibility with PHP 5.4.
+
+### Version 0.5 (2012-10-05)
+
+##### Compatibility changes
+
+* Changed minimum MediaWiki version from 1.16 to 1.17.
+* Full compatibility with MediaWiki 1.19 and MediaWiki 1.20 and forward-compatibility with 1.21.
+
+#### New features
+
+* New light-weight array definition of ParamDefinition objects supported.
+* Added DimensionParam.
+* Added ValidatorOptions class of which an instance can be passed to Validator
+to globally change precessing behaviour. The most notable new option is the
+'rawStringParameters' one, which when set to true (default) will expect values
+in string format, and when set to false (new capability) will expect values
+in their native formats (ie lists should be actual array objects).
+
+#### Enhancements
+
+* Split Parameter into Param and ParamDefinition classes.
+    * ParamDefinition objects each represent a type and contain the
+logic to validate and manipulate values.
+   * Param objects hold a ParamDefinition, the user provided value,
+and processing state.
+* Added several new options to various of the ParamDefinition objects that
+where not available in earlier criteria and manipulation objects.
+* Added tests for all ParamDefinition objects.
+* Added high level tests for Validator and tests for ValidatorOptions.
+
+#### Deprecations
+
+* Deprecated Parameter (and deriving) classes.
+* Deprecated ParameterCriterion (and deriving) classes.
+* Deprecated ParameterManipulation (and deriving) classes.
+* Deprecated the constructor method of the Validator class.
+
 ### Version 0.4.14 (2012-03-10)
 
 * New built-in parameter type 'title'. Accepts existing and non-existing page titles which are valid within the wiki.
