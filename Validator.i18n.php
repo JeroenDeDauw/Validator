@@ -975,7 +975,7 @@ $messages['diq'] = array(
  * @author Michawiki
  */
 $messages['dsb'] = array(
-	'validator-desc' => 'Validator stoj lažki nałog za druge rozšyrjenja k dispoziciji, aby se pśekontrolěrowali parametry parserowych funkcijow a toflickich rozšyrjenjow, nastajili standardne gódnoty a napórali zmólkowe powěsći', # Fuzzy
+	'validator-desc' => 'Deklaratiwna biblioteka za pśeźěłowanje parametrow',
 	'validator-warning' => 'Warnowanje: $1',
 	'validator-error' => 'Zmólka: $1',
 	'validator-fatal-error' => 'Rozwažna zmólka: $1',
