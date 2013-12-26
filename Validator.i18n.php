@@ -766,6 +766,7 @@ $messages['ca'] = array(
  */
 $messages['ce'] = array(
 	'validator-type-boolean' => 'хӀаъ/хӀахӀа',
+	'validator-describe-descriptionmsg' => "'''Цуьнах лаьцна''': $1",
 	'validator-describe-par-language' => 'Яздаран сурт хӀотторан мотт',
 	'validator-describe-header-default' => 'Iад йитарца',
 	'validator-describe-header-description' => 'Цуьнах лаьцна',
