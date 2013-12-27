@@ -765,6 +765,7 @@ $messages['ca'] = array(
  * @author Умар
  */
 $messages['ce'] = array(
+	'validator-warning-adittional-errors' => '… и {{PLURAL:$1|кхин цхьа бала|кхин маситта баланаш}}.',
 	'validator-type-boolean' => 'хӀаъ/хӀахӀа',
 	'validator-describe-descriptionmsg' => "'''Цуьнах лаьцна''': $1",
 	'validator-describe-par-language' => 'Яздаран сурт хӀотторан мотт',
