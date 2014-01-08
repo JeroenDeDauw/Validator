@@ -3345,6 +3345,7 @@ $messages['roa-tara'] = array(
  * @author Aleksandrit
  * @author Eleferen
  * @author Haffman
+ * @author Kaganer
  * @author Lockal
  * @author MaxSem
  * @author McDutchie
@@ -3357,10 +3358,10 @@ $messages['ru'] = array(
 	'validator-warning' => 'Внимание: $1',
 	'validator-error' => 'Ошибка: $1',
 	'validator-fatal-error' => 'Критическая ошибка: $1',
-	'validator_error_parameters' => 'В вашем синтаксисе {{PLURAL:$1|1=обнаружена следующая ошибка|обнаружены следующие ошибки}}:', # Fuzzy
-	'validator_warning_parameters' => 'В вашем синтаксисе {{PLURAL:$1|1=имеется ошибка|имеются ошибки}}.', # Fuzzy
-	'validator-warning-adittional-errors' => '… и {{PLURAL:$1|1=ещё одна проблема|ещё несколько проблем}}.', # Fuzzy
-	'validator-error-omitted' => '{{PLURAL:$2|1=Значение «$1» пропущено|Значения «$1» пропущены}}.', # Fuzzy
+	'validator_error_parameters' => 'В вашем синтаксисе {{PLURAL:$1|1=обнаружена следующая ошибка|обнаружены следующие ошибки}}:',
+	'validator_warning_parameters' => 'В вашем синтаксисе {{PLURAL:$1|1=имеется ошибка|имеются ошибки}}.',
+	'validator-warning-adittional-errors' => '… и {{PLURAL:$1|1=ещё одна проблема|ещё несколько проблем}}.',
+	'validator-error-omitted' => '{{PLURAL:$2|1=Значение «$1» пропущено|Значения «$1» пропущены}}.',
 	'validator-error-problem' => 'Обнаружена проблема с параметром «$1».',
 	'validator_error_unknown_argument' => '$1 не является допустимым параметром.',
 	'validator_error_required_missing' => 'Не указан обязательный параметр $1.',
@@ -3390,7 +3391,7 @@ $messages['ru'] = array(
 	'validator-describe-description' => 'Создает документацию для одного или нескольких обработчиков парсера, по пределениям Validator.',
 	'validator-describe-notfound' => 'Не существует обработчика парсера для «$1».',
 	'validator-describe-descriptionmsg' => "'''Описание''': $1",
-	'validator-describe-aliases' => "'''{{PLURAL:$2|1=Псевдоним|Псевдонимы}}''': $1", # Fuzzy
+	'validator-describe-aliases' => "'''{{PLURAL:$2|1=Псевдоним|Псевдонимы}}''': $1",
 	'validator-describe-parserfunction' => 'Реализована только функция парсера.',
 	'validator-describe-tagextension' => 'Реализовано только как дополнительный тег.',
 	'validator-describe-bothhooks' => 'Реализовано и функция парсера, и дополнительный тег.',
@@ -3434,14 +3435,13 @@ $messages['ru'] = array(
 	'validator_list_error_invalid_range' => 'Все значения параметра $1 должна находиться в диапазоне от $2 до $3.',
 	'validator-list-error-invalid-regex' => 'Все значения параметра «$1» должны соответствовать регулярноve выражению «$2».',
 	'validator_list_error_invalid_argument' => 'Одно или несколько значений параметра $1 ошибочны.',
-	'validator-list-error-accepts-only' => 'Ошибочны один или несколько значений параметра $1.
-{{PLURAL:$3|1=Допустимо только следующее значение|Допустимы только следующие значения}}: $2.', # Fuzzy
-	'validator-list-error-accepts-only-omitted' => 'Ошибочны один или несколько значений параметра $1.
-{{PLURAL:$3|1=Допустимо только следующее значение|Допустимы только следующие значения}}: $2 (и $4 {{PLURAL:$4|опущенное значение|опущенных значений|опущенных значения}}).', # Fuzzy
-	'validator_error_accepts_only' => 'Значение «$4» не подходит для параметра $1. Оно может принимать только {{PLURAL:$3|1=следующее значение|следующие значения}}: $2.', # Fuzzy
+	'validator-list-error-accepts-only' => 'Одно или несколько значений параметра $1 ошибочны. {{PLURAL:$3|1=Допустимо только следующее значение|Допустимы только следующие значения}}: $2.',
+	'validator-list-error-accepts-only-omitted' => 'Одно или несколько значений параметра $1 ошибочны.
+{{PLURAL:$3|1=Допустимо только следующее значение|Допустимы только следующие значения}}: $2 (и $4 {{PLURAL:$4|опущенное значение|опущенных значений|опущенных значения}}).',
+	'validator_error_accepts_only' => 'Значение «$4» не подходит для параметра $1. Он может принимать только {{PLURAL:$3|1=следующее значение|следующие значения}}: $2.',
 	'validator-error-accepts-only-omitted' => 'Значение «$2» не подходит для параметра $1.
-{{PLURAL:$5|1=Допускается только значение|Допускаются только значения}}: $3 (и $4 {{PLURAL:$4|пропущенное значение|пропущенных значений|пропущенных значения}}).', # Fuzzy
-	'validator_list_omitted' => '{{PLURAL:$2|1=Значение $1 было пропущено|Значения $1 были пропущены}}.', # Fuzzy
+{{PLURAL:$5|1=Допускается только значение|Допускаются только значения}}: $3 (и $4 {{PLURAL:$4|пропущенное значение|пропущенных значений|пропущенных значения}}).',
+	'validator_list_omitted' => '{{PLURAL:$2|1=Значение $1 было пропущено|Значения $1 были пропущены}}.',
 	'validator-message-nodesc' => 'Описание не предоставлено',
 );
 
