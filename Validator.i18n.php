@@ -1063,12 +1063,13 @@ $messages['eo'] = array(
 
 /** Spanish (español)
  * @author Armando-Martin
+ * @author Ciencia Al Poder
  * @author Crazymadlover
  * @author Imre
  * @author Translationista
  */
 $messages['es'] = array(
-	'validator-desc' => 'FUZZY!!! El validador es una herramienta para que otras funciones validen fácilmente parámetros de funciones de análisis y extensiones de etiquetas, establecer valores predeterminados y generar mensajes de error', # Fuzzy
+	'validator-desc' => 'Biblioteca de procesamiento de parámetros declarativa',
 	'validator-warning' => 'Advertencia: $1',
 	'validator-error' => 'Error: $1',
 	'validator-fatal-error' => 'Error fatal: $1',
