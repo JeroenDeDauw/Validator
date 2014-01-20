@@ -2272,6 +2272,7 @@ $messages['ka'] = array(
 );
 
 /** Korean (한국어)
+ * @author Priviet
  * @author 아라
  */
 $messages['ko'] = array(
@@ -2325,7 +2326,7 @@ $messages['ko'] = array(
 	'validator-describe-header-parameter' => '변수',
 	'validator-describe-header-aliases' => '별명',
 	'validator-describe-header-type' => '종류',
-	'validator-describe-header-default' => '기본값',
+	'validator-describe-header-default' => '기본 값',
 	'validator-describe-header-description' => '설명',
 	'validator-describe-parameters' => '변수',
 	'validator-describe-syntax' => '문법',
