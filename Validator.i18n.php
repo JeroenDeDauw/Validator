@@ -1205,6 +1205,7 @@ $messages['eu'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Armin1392
  * @author Mjbmr
  * @author پاناروما
  */
@@ -1212,6 +1213,9 @@ $messages['fa'] = array(
 	'validator-warning' => 'هشدار: $1',
 	'validator-error' => 'خطا: $1',
 	'validator-fatal-error' => 'خطای مهلک: $1',
+	'validator-error-problem' => 'مشکلی با پارامتر $1 وجود داشت.',
+	'validator_error_unknown_argument' => '$1 یک پارامتر معتبر نیست.',
+	'validator_error_required_missing' => 'پارامتر مورد نیاز "$1" ارائه نشده‌است.',
 	'validator-type-string' => 'متن',
 	'validator-type-integer' => 'عدد صحیح',
 	'validator-type-float' => 'شماره',
@@ -1221,6 +1225,7 @@ $messages['fa'] = array(
 	'validator-type-string-list' => 'فهرست متون',
 	'validator-type-integer-list' => 'فهرست اعداد صحیح',
 	'validator-type-float-list' => 'فهرست شماره‌ها',
+	'validator-type-boolean-list' => 'فهرست بله/خیر',
 	'validator-type-char-list' => 'فهرست شخصیت‌ها',
 	'validator-type-title-list' => 'فهرست عناوین',
 	'validator-listerrors-errors' => 'خطاها',
@@ -1230,6 +1235,8 @@ $messages['fa'] = array(
 	'validator-listerrors-high' => 'زیاد',
 	'validator-listerrors-fatal' => 'کشنده',
 	'validator-describe-descriptionmsg' => "'''شرح''': $1",
+	'validator-describe-par-language' => 'زبان برای نمایش توصیفات در',
+	'validator-describe-listtype' => 'فهرست موارد $1',
 	'validator-describe-empty' => 'خالی',
 	'validator-describe-required' => 'ضروری',
 	'validator-describe-header-parameter' => 'مولفه',
@@ -1238,6 +1245,31 @@ $messages['fa'] = array(
 	'validator-describe-header-default' => 'پیش فرض',
 	'validator-describe-header-description' => 'تشریح',
 	'validator-describe-parameters' => 'پارامترها',
+	'validator-describe-syntax' => 'نحو',
+	'validator-describe-tagmin' => 'برچسب گستره فقط با پارامترهای مورد نیاز',
+	'validator-describe-tagmax' => 'برچسب گستره با همهٔ پارامترها',
+	'validator-describe-pfmax' => 'فعالیت تجزیه کننده با همهٔ پارامترها.',
+	'validator_error_empty_argument' => 'پارامتر $1 نمی‌تواند یک مقدار خالی باشد.',
+	'validator_error_must_be_number' => 'پارامتر $1 می‌تواند فقط یک عدد باشد.',
+	'validator_error_must_be_integer' => 'پارامتر $1 می‌تواند فقط یک عدد صحیح باشد.',
+	'validator_error_must_be_title' => 'پارامتر $1 می‌تواند فقط یک نام صفحهٔ ویکی معتبر باشد.',
+	'validator_error_must_be_existing_title' => 'پارامتر $1 می‌تواند فقط یک نام صفحهٔ ویکی موجود باشد.',
+	'validator-error-must-be-float' => 'پارامتر $1 می‌تواند فقط یک عدد نقطهٔ معلق باشد.',
+	'validator_error_invalid_range' => 'پارامتر $1 باید بین $2 و $3 باشد.',
+	'validator-error-invalid-regex' => 'پارامتر $1باید با این عبارت منظم مطابق باشد: $2',
+	'validator-error-invalid-length' => 'پارامتر $1 باید طول $2 داشته باشد.',
+	'validator-error-invalid-length-range' => 'پارامتر $1 باید طول بین $2 و $3 داشته باشد.',
+	'validator_error_invalid_argument' => 'مقدار $1 برای پارامتر $2 معتبر نیست.',
+	'validator_list_error_empty_argument' => 'پارامتر $1 مقادیر خالی را نمی‌پذیرد.',
+	'validator_list_error_must_be_number' => 'پارامتر $1 می‌تواند فقط شامل اعداد باشد.',
+	'validator_list_error_must_be_integer' => 'پارامتر $1 می‌تواند فقط شامل اعداد صحیح باشد.',
+	'validator_list_error_must_be_title' => 'پارامتر $1 می‌تواند فقط شامل نام‌های صفحهٔ ویکی معتبر باشد.',
+	'validator_list_error_must_be_existing_title' => 'پارامتر $1 می‌تواند فقط شامل نام‌های صفحهٔ ویکی موجود باشد.',
+	'validator-list-error-must-be-float' => 'پارامتر $1 می‌تواند فقط شامل معلق‌ها باشد.',
+	'validator_list_error_invalid_range' => 'همهٔ مقادیر پارامتر $1 باید بین $2 و $3 باشند.',
+	'validator-list-error-invalid-regex' => 'همهٔ مقادیر پارامتر $1 باید با این عبارت منظم مطابق باشند: $2.',
+	'validator_list_error_invalid_argument' => 'یک یا چند مقادیر برای پارامتر $1 نامعتبر است.',
+	'validator-message-nodesc' => 'هیچ توصیفی ارائه نشده',
 );
 
 /** Finnish (suomi)
