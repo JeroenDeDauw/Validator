@@ -3301,6 +3301,13 @@ para obter todos os erros, coloque listerrors ao final da página.',
 	'validator-message-nodesc' => 'Nenhuma descrição fornecida',
 );
 
+/** Quechua (Runa Simi)
+ * @author AlimanRuna
+ */
+$messages['qu'] = array(
+	'validator-warning' => 'Yuyampay: $1',
+);
+
 /** Romanian (română)
  * @author Minisarm
  * @author Stelistcristi
