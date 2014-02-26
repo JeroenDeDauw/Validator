@@ -2600,18 +2600,18 @@ $messages['mk'] = array(
 	'validator-listerrors-normal' => 'Нормално',
 	'validator-listerrors-high' => 'Многу',
 	'validator-listerrors-fatal' => 'Фатални',
-	'validator-listerrors-description' => 'Ги наведува грешките (и предупредувањата) што се јавиле кај парсерските куки додадени преки Потврдувачот (Validator).
-Ги наведува само парсерските куки додадени погоре каде е вметнато „listerrors“;
+	'validator-listerrors-description' => 'Ги наведува грешките (и предупредувањата) што се јавиле кај расчленувачките куки додадени преки Потврдувачот (Validator).
+Ги наведува само расчленувачките куки додадени погоре каде е вметнато „listerrors“;
 ставете го „listerrors“ на или близу дното на страницата за да ви се прикажат сите грешки.',
 	'validator-listerrors-par-minseverity' => 'Минималната сериозност на проблемот за да биде наведен.',
-	'validator-describe-description' => 'Создава документација за една или повеќе парсерски куки определени преку Потврдувачот.',
-	'validator-describe-notfound' => 'Нема парсерска кука што работи со „$1“.',
+	'validator-describe-description' => 'Создава документација за една или повеќе расчленувачки куки определени преку Потврдувачот.',
+	'validator-describe-notfound' => 'Нема расчленувачка кука што работи со „$1“.',
 	'validator-describe-descriptionmsg' => "'''Опис''': $1",
 	'validator-describe-aliases' => "'''{{PLURAL:$2|Алијас|Алијаси}}''': $1",
-	'validator-describe-parserfunction' => 'Се применува само во својство на парсерска функција.',
+	'validator-describe-parserfunction' => 'Се применува само во својство на расчленувачка функција.',
 	'validator-describe-tagextension' => 'Се применува само во својство на додаток за означување.',
-	'validator-describe-bothhooks' => 'Се применува во својство на парсерска функција и додаток за означување (обете).',
-	'validator-describe-par-hooks' => 'Парсерските куки за кои сакате да се прикаже документација.',
+	'validator-describe-bothhooks' => 'Се применува во својство на расчленувачка функција и додаток за означување (обете).',
+	'validator-describe-par-hooks' => 'Расчленувачките куки за кои сакате да се прикаже документација.',
 	'validator-describe-par-pre' => 'Ви овозможува да го добиете самиот викитекст за документацијата, без да се испише на страницата',
 	'validator-describe-par-language' => 'На кој јазик да се прикажуваат описите',
 	'validator-describe-listtype' => 'Список на $1 ставки',
@@ -2627,10 +2627,10 @@ $messages['mk'] = array(
 	'validator-describe-tagmin' => 'Додаток за означување само со задолжителните параметри.',
 	'validator-describe-tagmax' => 'Додаток за означување со сите параметри.',
 	'validator-describe-tagdefault' => 'Додаток за означување кајшто сите параметри ја користат стандардната параметарска нотација.',
-	'validator-describe-pfmin' => 'Парсерска функција само со задолжителните параметри.',
-	'validator-describe-pfmax' => 'Парсерска функција со сите параметри.',
-	'validator-describe-pfdefault' => 'Парсерска функција кајшто сите параметри ја користат стандардната параметарска нотација.',
-	'validator-describe-autogen' => 'Содржината на овој поднаслов е создадена автоматски од парсерската кука „describe“ на додатокот Потврдувач (Validator).',
+	'validator-describe-pfmin' => 'Расчленувачка функција само со задолжителните параметри.',
+	'validator-describe-pfmax' => 'Расчленувачка функција со сите параметри.',
+	'validator-describe-pfdefault' => 'Расчленувачка функција кајшто сите параметри ја користат стандардната параметарска нотација.',
+	'validator-describe-autogen' => 'Содржината на овој поднаслов е создадена автоматски од расчленувачката кука „describe“ на додатокот Потврдувач (Validator).',
 	'validator_error_empty_argument' => 'Параметарот $1 не може да има празна вредност.',
 	'validator_error_must_be_number' => 'Параметарот $1 може да биде само број.',
 	'validator_error_must_be_integer' => 'Параметарот $1 може да биде само цел број.',
@@ -3686,12 +3686,13 @@ $messages['ta'] = array(
 );
 
 /** Telugu (తెలుగు)
+ * @author Chaduvari
  * @author Ravichandra
  * @author Veeven
  */
 $messages['te'] = array(
 	'validator-warning' => 'హెచ్చరిక: $1',
-	'validator-error' => 'పొరపాటు: $1',
+	'validator-error' => 'లోపం: $1',
 	'validator_error_unknown_argument' => '$1 అనేది సరైన పరామితి కాదు.',
 	'validator_error_required_missing' => 'తప్పకుండా కావాల్సిన $1 పరామితిని ఇవ్వలేదు.',
 	'validator-type-string' => 'పాఠ్యం',
