@@ -971,7 +971,7 @@ $messages['diq'] = array(
 	'validator-describe-header-parameter' => 'Parametre',
 	'validator-describe-header-type' => 'Babet',
 	'validator-describe-header-default' => 'Hesabiyaye',
-	'validator-describe-header-description' => 'Sılasnayış',
+	'validator-describe-header-description' => 'Şınasnayış',
 	'validator-describe-parameters' => 'Parametrey',
 );
 
