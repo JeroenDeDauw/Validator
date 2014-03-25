@@ -54,6 +54,7 @@ and [Semantic MediaWiki](https://semantic-mediawiki.org/).
 ### Version 1.0.1 (2014-03-25)
 
 * Translation updates
+* Main copy of the source code is now on GitHub
 
 ### Version 1.0 (2013-11-21)
 
