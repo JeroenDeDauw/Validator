@@ -51,6 +51,10 @@ and [Semantic MediaWiki](https://semantic-mediawiki.org/).
 
 ## Release notes
 
+### Version 1.0.1 (2014-03-25)
+
+* Translation updates
+
 ### Version 1.0 (2013-11-21)
 
 This release is primarily a redesign of many internal APIs aimed at greater
