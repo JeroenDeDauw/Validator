@@ -31,13 +31,11 @@ if ( !class_exists( 'ParamProcessor\Processor' ) ) {
 	throw new Exception( 'Validator depends on the ParamProcessor library.' );
 }
 
-global $wgExtensionMessagesFiles, $wgExtensionCredits, $wgAutoloadClasses, $wgHooks, $wgDataValues;
-
 // Register the internationalization file.
-$wgExtensionMessagesFiles['Validator'] = __DIR__ . '/Validator.i18n.php';
-$wgExtensionMessagesFiles['ValidatorMagic'] = __DIR__ . '/Validator.i18n.magic.php';
+$GLOBALS['wgExtensionMessagesFiles']['Validator'] = __DIR__ . '/Validator.i18n.php';
+$GLOBALS['wgExtensionMessagesFiles']['ValidatorMagic'] = __DIR__ . '/Validator.i18n.magic.php';
 
-$wgExtensionCredits['other'][] = array(
+$GLOBALS['wgExtensionCredits']['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Validator',
 	'version' => Validator_VERSION,
@@ -101,15 +99,15 @@ class Validator extends ParamProcessor\Processor {
 }
 
 // utils
-$wgAutoloadClasses['ParserHook']				 	= __DIR__ . '/src/legacy/ParserHook.php';
-$wgAutoloadClasses['ValidatorDescribe']		  		= __DIR__ . '/src/legacy/Describe.php';
-$wgAutoloadClasses['ValidatorListErrors']			= __DIR__ . '/src/legacy/ListErrors.php';
+$GLOBALS['wgAutoloadClasses']['ParserHook']				 	= __DIR__ . '/src/legacy/ParserHook.php';
+$GLOBALS['wgAutoloadClasses']['ValidatorDescribe']		  		= __DIR__ . '/src/legacy/Describe.php';
+$GLOBALS['wgAutoloadClasses']['ValidatorListErrors']			= __DIR__ . '/src/legacy/ListErrors.php';
 
 // Registration of the listerrors parser hooks.
-$wgHooks['ParserFirstCallInit'][] = 'ValidatorListErrors::staticInit';
+$GLOBALS['wgHooks']['ParserFirstCallInit'][] = 'ValidatorListErrors::staticInit';
 
 // Registration of the describe parser hooks.
-$wgHooks['ParserFirstCallInit'][] = 'ValidatorDescribe::staticInit';
+$GLOBALS['wgHooks']['ParserFirstCallInit'][] = 'ValidatorDescribe::staticInit';
 
 /**
  * Hook to add PHPUnit test cases.
@@ -121,7 +119,7 @@ $wgHooks['ParserFirstCallInit'][] = 'ValidatorDescribe::staticInit';
  *
  * @return boolean
  */
-$wgHooks['UnitTestsList'][]	= function( array &$files ) {
+$GLOBALS['wgHooks']['UnitTestsList'][]	= function( array &$files ) {
 	// @codeCoverageIgnoreStart
 	$directoryIterator = new RecursiveDirectoryIterator( __DIR__ . '/tests/phpunit/' );
 
@@ -138,7 +136,7 @@ $wgHooks['UnitTestsList'][]	= function( array &$files ) {
 	// @codeCoverageIgnoreEnd
 };
 
-$wgDataValues['mediawikititle'] = 'ParamProcessor\MediaWikiTitleValue';
+$GLOBALS['wgDataValues']['mediawikititle'] = 'ParamProcessor\MediaWikiTitleValue';
 
 $GLOBALS['wgParamDefinitions']['title'] = array(
 	'string-parser' => '\ParamProcessor\TitleParser',
