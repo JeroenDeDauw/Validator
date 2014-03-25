@@ -9,7 +9,7 @@
 		"SMW",
 		"Semantic MediaWiki"
 	],
-	"homepage": "https://www.mediawiki.org/wiki/Extension:Validator",
+	"homepage": "https://github.com/JeroenDeDauw/Validator",
 	"license": "GPL-2.0+",
 	"authors": [
 		{
@@ -20,10 +20,7 @@
 		}
 	],
 	"support": {
-		"issues": "https://bugzilla.wikimedia.org/",
-		"irc": "irc://irc.freenode.net/mediawiki",
-		"forum": "https://www.mediawiki.org/wiki/Extension_talk:Validator",
-		"wiki": "https://www.mediawiki.org/wiki/Extension:Validator"
+		"irc": "irc://irc.freenode.net/mediawiki"
 	},
 	"require": {
 		"php": ">=5.3.0",
@@ -33,5 +30,10 @@
 		"files" : [
 			"Validator.php"
 		]
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.0.x-dev"
+		}
 	}
 }
