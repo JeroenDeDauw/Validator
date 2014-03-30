@@ -12,7 +12,7 @@ if ( defined( 'ParamProcessor_VERSION' ) ) {
 	return 1;
 }
 
-define( 'Validator_VERSION', '1.0.0.1' );
+define( 'Validator_VERSION', '1.1.0.0' );
 define( 'ParamProcessor_VERSION', Validator_VERSION ); // @deprecated since 1.0
 
 if ( !defined( 'MEDIAWIKI' ) ) {
@@ -34,6 +34,7 @@ if ( !class_exists( 'ParamProcessor\Processor' ) ) {
 global $wgExtensionMessagesFiles, $wgExtensionCredits, $wgAutoloadClasses, $wgHooks, $wgDataValues;
 
 // Register the internationalization file.
+$wgMessagesDirs['Validator'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['Validator'] = __DIR__ . '/Validator.i18n.php';
 $wgExtensionMessagesFiles['ValidatorMagic'] = __DIR__ . '/Validator.i18n.magic.php';
 
