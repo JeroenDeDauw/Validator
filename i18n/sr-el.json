@@ -1,6 +1,4 @@
 {
-    "@metadata": {
-        "authors": []
-    },
-    "validator-listerrors-severity-message": "($1) $2"
+	"@metadata": [],
+	"validator-listerrors-severity-message": "($1) $2"
 }

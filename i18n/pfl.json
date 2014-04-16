@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Manuae"
-        ]
-    },
-    "validator-type-string": "Tegschd",
-    "validator-type-boolean": "Ja/Nä",
-    "validator-type-char": "Zaische"
+	"@metadata": {
+		"authors": [
+			"Manuae"
+		]
+	},
+	"validator-type-string": "Tegschd",
+	"validator-type-boolean": "Ja/Nä",
+	"validator-type-char": "Zaische"
 }

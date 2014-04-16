@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Luckas"
-        ]
-    },
-    "validator-describe-descriptionmsg": "'''Descripció''': $1",
-    "validator-describe-header-description": "Descripció"
+	"@metadata": {
+		"authors": [
+			"Luckas"
+		]
+	},
+	"validator-describe-descriptionmsg": "'''Descripció''': $1",
+	"validator-describe-header-description": "Descripció"
 }
