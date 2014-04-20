@@ -57,6 +57,8 @@
 	"validator_error_empty_argument": "参数 $1 不能为空。",
 	"validator_error_must_be_number": "参数 $1 只能为数字。",
 	"validator_error_must_be_integer": "参数 $1 只能为整数。",
+	"validator_error_must_be_title": "参数$1只能是有效的wiki页面名。",
+	"validator_error_must_be_existing_title": "参数$1只能是现有wiki页面名。",
 	"validator_error_invalid_range": "参数 $1 的范围必须介于 $2 与 $3 之间。",
 	"validator_error_invalid_argument": "值 $1 对于参数 $2 不合法。",
 	"validator_list_error_empty_argument": "参数 $1 不接受空值。",
