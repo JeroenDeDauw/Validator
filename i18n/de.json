@@ -6,7 +6,8 @@
 			"Kghbln",
 			"LWChris",
 			"Metalhead64",
-			"Purodha"
+			"Purodha",
+			"Das Schäfchen"
 		]
 	},
 	"validator-desc": "Stellt anderen Programmerweiterungen eine deklarative Bibliothek zur Verarbeitung von Parametern bereit",
@@ -48,9 +49,9 @@
 	"validator-describe-parserfunction": "Sie ist lediglich als Parsererweiterung in Form einer Funktion implementiert.",
 	"validator-describe-tagextension": "Sie ist lediglich als Parsererweiterung in Form eines Tags implementiert.",
 	"validator-describe-bothhooks": "Sie ist sowohl als Parsererweiterung in Form einer Funktion wie auch eines Tags implementiert.",
-	"validator-describe-par-hooks": "Die Parsererweiterungen zu der die Dokumentation angezeigt werden soll.",
+	"validator-describe-par-hooks": "Die Parsererweiterungen, zu der die Dokumentation angezeigt werden soll.",
 	"validator-describe-par-pre": "Ermöglicht die Ausgabe der Dokumentation in Wikitext, wobei dieser nicht gerendert wird.",
-	"validator-describe-par-language": "Die Sprache in der die Beschreibungen angezeigt werden sollen",
+	"validator-describe-par-language": "Die Sprache, in der die Beschreibungen angezeigt werden sollen",
 	"validator-describe-listtype": "Liste von Elementen: $1",
 	"validator-describe-empty": "leer",
 	"validator-describe-required": "erforderlich",
