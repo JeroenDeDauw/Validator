@@ -54,17 +54,20 @@
 	"validator-describe-header-description": "说明",
 	"validator-describe-parameters": "参数",
 	"validator-describe-syntax": "语法",
+	"validator-describe-tagmax": "带所有参数的标签拓展。",
 	"validator_error_empty_argument": "参数 $1 不能为空。",
 	"validator_error_must_be_number": "参数 $1 只能为数字。",
 	"validator_error_must_be_integer": "参数 $1 只能为整数。",
 	"validator_error_must_be_title": "参数$1只能是有效的wiki页面名。",
 	"validator_error_must_be_existing_title": "参数$1只能是现有wiki页面名。",
 	"validator_error_invalid_range": "参数 $1 的范围必须介于 $2 与 $3 之间。",
+	"validator-error-invalid-length": "参数$1必须指定$2的长度。",
 	"validator_error_invalid_argument": "值 $1 对于参数 $2 不合法。",
 	"validator_list_error_empty_argument": "参数 $1 不接受空值。",
 	"validator_list_error_must_be_number": "参数 $1 只能包含数字。",
 	"validator_list_error_must_be_integer": "参数 $1 只能包含整数。",
 	"validator-list-error-must-be-float": "参数 $1 只能包含浮点数。",
 	"validator_list_error_invalid_range": "参数 $1 所有合法的值都必须介于 $2 与 $3 之间。",
-	"validator_list_error_invalid_argument": "参数 $1 的一个或多个值不合法。"
+	"validator_list_error_invalid_argument": "参数 $1 的一个或多个值不合法。",
+	"validator-message-nodesc": "没有提供描述"
 }
