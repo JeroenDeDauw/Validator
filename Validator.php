@@ -19,8 +19,8 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 	die( 'Not an entry point.' );
 }
 
-if ( version_compare( $GLOBALS['wgVersion'], '1.16c', '<' ) ) {
-	die( '<b>Error:</b> This version of Validator requires MediaWiki 1.16 or above.' );
+if ( version_compare( $GLOBALS['wgVersion'], '1.17c', '<' ) ) {
+	die( '<b>Error:</b> This version of Validator requires MediaWiki 1.17 or above.' );
 }
 
 if ( is_readable( __DIR__ . '/vendor/autoload.php' ) ) {
@@ -31,7 +31,7 @@ if ( !class_exists( 'ParamProcessor\Processor' ) ) {
 	throw new Exception( 'Validator depends on the ParamProcessor library.' );
 }
 
-// Register the internationalization file.
+$GLOBALS['wgMessagesDirs']['Validator'] = __DIR__ . '/i18n';
 $GLOBALS['wgExtensionMessagesFiles']['Validator'] = __DIR__ . '/Validator.i18n.php';
 $GLOBALS['wgExtensionMessagesFiles']['ValidatorMagic'] = __DIR__ . '/Validator.i18n.magic.php';
 
