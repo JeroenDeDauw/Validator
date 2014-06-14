@@ -51,6 +51,10 @@ and [Semantic MediaWiki](https://semantic-mediawiki.org/).
 
 ## Release notes
 
+### Version 1.0.2 (2014-06-14)
+
+* Updated autoloading mechanism
+
 ### Version 1.0.1 (2014-03-25)
 
 * Translation updates
