@@ -12,7 +12,7 @@ if ( defined( 'ParamProcessor_VERSION' ) ) {
 	return 1;
 }
 
-define( 'Validator_VERSION', '1.0.2' );
+define( 'Validator_VERSION', '2.0' );
 define( 'ParamProcessor_VERSION', Validator_VERSION ); // @deprecated since 1.0
 
 if ( !defined( 'MEDIAWIKI' ) ) {
@@ -42,35 +42,9 @@ $GLOBALS['wgExtensionCredits']['other'][] = array(
 	'author' => array(
 		'[https://www.mediawiki.org/wiki/User:Jeroen_De_Dauw Jeroen De Dauw]'
 	),
-	'url' => 'https://www.mediawiki.org/wiki/Extension:Validator',
+	'url' => 'https://github.com/JeroenDeDauw/Validator',
 	'descriptionmsg' => 'validator-desc',
 );
-
-class_alias( 'ParamProcessor\ParamDefinitionFactory', 'ParamDefinitionFactory' ); // Softly deprecated since 1.0, removal in 1.5
-class_alias( 'ParamProcessor\ParamDefinition', 'ParamDefinition' ); // Softly deprecated since 1.0, removal in 1.5
-class_alias( 'ParamProcessor\Definition\StringParam', 'StringParam' ); // Softly deprecated since 1.0, removal in 1.5
-class_alias( 'ParamProcessor\Definition\StringParam', 'ParamProcessor\StringParam' ); // Softly deprecated since 1.0, removal in 1.5
-class_alias( 'ParamProcessor\IParamDefinition', 'IParamDefinition' ); // Softly deprecated since 1.0, removal in 1.5
-class_alias( 'ParamProcessor\Definition\DimensionParam', 'DimensionParam' ); // Softly deprecated since 1.0, removal in 1.5
-
-class_alias( 'ParamProcessor\ProcessingError', 'ProcessingError' ); // Deprecated since 1.0, removal in 1.2
-class_alias( 'ParamProcessor\Options', 'ValidatorOptions' ); // Deprecated since 1.0, removal in 1.2
-class_alias( 'ParamProcessor\IParam', 'IParam' ); // Deprecated since 1.0, removal in 1.2
-
-/**
- * @deprecated since 1.0, removal in 1.3
- */
-class Validator extends ParamProcessor\Processor {
-
-	public function __construct() {
-		parent::__construct( new ParamProcessor\Options() );
-	}
-
-}
-
-$GLOBALS['wgAutoloadClasses']['ParserHook'] = __DIR__ . '/src/legacy/ParserHook.php';
-$GLOBALS['wgAutoloadClasses']['ValidatorDescribe'] = __DIR__ . '/src/legacy/Describe.php';
-$GLOBALS['wgAutoloadClasses']['ValidatorListErrors'] = __DIR__ . '/src/legacy/ListErrors.php';
 
 // Registration of the listerrors parser hooks.
 $GLOBALS['wgHooks']['ParserFirstCallInit'][] = 'ValidatorListErrors::staticInit';

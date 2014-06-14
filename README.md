@@ -46,14 +46,15 @@ Simply include the entry point in your LocalSettings.php file:
 
 Validator has been written by
 [Jeroen De Dauw](https://www.mediawiki.org/wiki/User:Jeroen_De_Dauw)
-to support [Maps](https://www.mediawiki.org/wiki/Extension:Maps)
+to support [Maps](https://github.com/JeroenDeDauw/Maps)
 and [Semantic MediaWiki](https://semantic-mediawiki.org/).
 
 ## Release notes
 
-### Version 1.0.2 (2014-06-14)
+### Version 2.0 (2014-06-14)
 
-* Updated autoloading mechanism
+* Dropped deprecated class aliases
+* Use composer based autoloading
 
 ### Version 1.0.1 (2014-03-25)
 
