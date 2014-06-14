@@ -12,7 +12,7 @@ if ( defined( 'ParamProcessor_VERSION' ) ) {
 	return 1;
 }
 
-define( 'Validator_VERSION', '2.0.1' );
+define( 'Validator_VERSION', '2.0.2' );
 define( 'ParamProcessor_VERSION', Validator_VERSION ); // @deprecated since 1.0
 
 if ( !defined( 'MEDIAWIKI' ) ) {
