@@ -55,6 +55,7 @@ and [Semantic MediaWiki](https://semantic-mediawiki.org/).
 
 * Dropped deprecated class aliases
 * Use composer based autoloading
+* Added TravisCI and ScrutinizerCI integration
 
 ### Version 1.0.1 (2014-03-25)
 
