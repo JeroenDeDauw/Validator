@@ -51,6 +51,10 @@ and [Semantic MediaWiki](https://semantic-mediawiki.org/).
 
 ## Release notes
 
+### Version 2.0.1 (2014-06-14)
+
+* Removed #listerrors and #describe parser hooks
+
 ### Version 2.0 (2014-06-14)
 
 * Dropped deprecated class aliases

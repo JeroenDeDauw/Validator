@@ -46,12 +46,6 @@ $GLOBALS['wgExtensionCredits']['other'][] = array(
 	'descriptionmsg' => 'validator-desc',
 );
 
-// Registration of the listerrors parser hooks.
-$GLOBALS['wgHooks']['ParserFirstCallInit'][] = 'ValidatorListErrors::staticInit';
-
-// Registration of the describe parser hooks.
-$GLOBALS['wgHooks']['ParserFirstCallInit'][] = 'ValidatorDescribe::staticInit';
-
 /**
  * Hook to add PHPUnit test cases.
  * @see https://www.mediawiki.org/wiki/Manual:Hooks/UnitTestsList
