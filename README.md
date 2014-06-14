@@ -57,6 +57,8 @@ and [Semantic MediaWiki](https://semantic-mediawiki.org/).
 * Dropped deprecated ParamProcessor.php entry point
 * Use composer based autoloading
 * Added TravisCI and ScrutinizerCI integration
+* Changed minimum MediaWiki version from 1.16 to 1.17
+* Migrated messages to the new MediaWiki i18n JSON format
 
 ### Version 1.0.1 (2014-03-25)
 
