@@ -54,6 +54,7 @@ and [Semantic MediaWiki](https://semantic-mediawiki.org/).
 ### Version 2.0 (2014-06-14)
 
 * Dropped deprecated class aliases
+* Dropped deprecated ParamProcessor.php entry point
 * Use composer based autoloading
 * Added TravisCI and ScrutinizerCI integration
 
