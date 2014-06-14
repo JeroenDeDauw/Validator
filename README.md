@@ -23,11 +23,11 @@ the git repository and take care of loading yourself.
 To add this package as a local, per-project dependency to your project, simply add a
 dependency on `mediawiki/validator` to your project's `composer.json` file.
 Here is a minimal example of a `composer.json` file that just defines a dependency on
-Validator 1.0:
+Validator 2.0:
 
     {
         "require": {
-            "mediawiki/validator": "1.0.*"
+            "mediawiki/validator": "2.0.*"
         }
     }
 
