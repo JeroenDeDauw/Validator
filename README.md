@@ -51,6 +51,10 @@ and [Semantic MediaWiki](https://semantic-mediawiki.org/).
 
 ## Release notes
 
+### Version 2.0.3 (2014-06-16)
+
+* Removed obsolete magic words internationalization file
+
 ### Version 2.0.2 (2014-06-14)
 
 * Fixed issue in deprecated ParserHook class
