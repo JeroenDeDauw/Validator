@@ -43,6 +43,7 @@ $GLOBALS['wgExtensionCredits']['other'][] = array(
 	),
 	'url' => 'https://github.com/JeroenDeDauw/Validator',
 	'descriptionmsg' => 'validator-desc',
+	'license-name' => 'GPL-2.0+'
 );
 
 /**
