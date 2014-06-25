@@ -51,6 +51,10 @@ and [Semantic MediaWiki](https://semantic-mediawiki.org/).
 
 ## Release notes
 
+### Version 2.0.4 (2014-06-25)
+
+* Updated used ParamProcessor version from ~1.0.0 to ~1.1
+
 ### Version 2.0.3 (2014-06-16)
 
 * Removed obsolete magic words internationalization file
