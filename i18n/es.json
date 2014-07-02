@@ -5,7 +5,8 @@
 			"Ciencia Al Poder",
 			"Crazymadlover",
 			"Imre",
-			"Translationista"
+			"Translationista",
+			"Fitoschido"
 		]
 	},
 	"validator-desc": "Biblioteca de procesamiento de parámetros declarativa",
@@ -15,7 +16,7 @@
 	"validator_error_parameters": "Se detectó {{PLURAL:$1|el siguiente error|los siguientes errores}} en la sintaxis empleada:",
 	"validator_warning_parameters": "Hay {{PLURAL:$1|un error|errores}} en tu sintaxis.",
 	"validator-warning-adittional-errors": "...y {{PLURAL:$1|otro problema|muchos otros problemas}}.",
-	"validator-error-omitted": "{{PLURAL:$2|el valor \"$1\" ha sido  omitido|los valores \"$1\" han sido omitidos}}.",
+	"validator-error-omitted": "Se {{PLURAL:$2|omitió el valor «$1»|omitieron los valores «$1»}}.",
 	"validator-error-problem": "Ha habido un problema con el parámetro $1.",
 	"validator_error_unknown_argument": "$1 no es un parámetro válido.",
 	"validator_error_required_missing": "No se ha provisto el parámetro requerido $1.",
