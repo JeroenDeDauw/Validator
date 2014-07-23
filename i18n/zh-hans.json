@@ -69,5 +69,6 @@
 	"validator-list-error-must-be-float": "参数 $1 只能包含浮点数。",
 	"validator_list_error_invalid_range": "参数 $1 所有合法的值都必须介于 $2 与 $3 之间。",
 	"validator_list_error_invalid_argument": "参数 $1 的一个或多个值不合法。",
+	"validator_list_omitted": "{{PLURAL:$2|值}}$1已省略。",
 	"validator-message-nodesc": "没有提供描述"
 }
