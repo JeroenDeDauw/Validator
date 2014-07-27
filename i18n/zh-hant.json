@@ -3,7 +3,8 @@
 		"authors": [
 			"Mark85296341",
 			"Shirayuki",
-			"Wrightbus"
+			"Wrightbus",
+			"LNDDYL"
 		]
 	},
 	"validator-warning": "警告：$1",
@@ -16,7 +17,7 @@
 	"validator-type-string": "文本",
 	"validator-type-float": "浮點數",
 	"validator-type-boolean": "布爾值",
-	"validator-type-char": "字符",
+	"validator-type-char": "字元",
 	"validator-type-title": "標題",
 	"validator-listerrors-errors": "錯誤",
 	"validator-listerrors-severity-message": "（$1）$2",
