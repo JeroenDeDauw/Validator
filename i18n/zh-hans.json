@@ -15,7 +15,7 @@
 	"validator-warning": "警告：$1",
 	"validator-error": "错误：$1",
 	"validator-fatal-error": "致命错误：$1",
-	"validator_error_parameters": "从您的语法中检测到以下{{PLURAL:$1|错误|错误}}：",
+	"validator_error_parameters": "从您的语法中检测到以下{{PLURAL:$1|错误}}：",
 	"validator_warning_parameters": "您的语法中存在{{PLURAL:$1|一个错误|若干错误}}。",
 	"validator-warning-adittional-errors": "......以及{{PLURAL:$1|更多的问题}}。",
 	"validator-error-omitted": "{{PLURAL:$2|值“$1”|“$1”等值}}已被忽略。",
@@ -66,8 +66,12 @@
 	"validator_list_error_empty_argument": "参数 $1 不接受空值。",
 	"validator_list_error_must_be_number": "参数 $1 只能包含数字。",
 	"validator_list_error_must_be_integer": "参数 $1 只能包含整数。",
+	"validator_list_error_must_be_title": "参数 $1 只能包含有效的wiki页面名。",
+	"validator_list_error_must_be_existing_title": "参数 $1 只能包含现有的wiki页面名。",
 	"validator-list-error-must-be-float": "参数 $1 只能包含浮点数。",
 	"validator_list_error_invalid_range": "参数 $1 所有合法的值都必须介于 $2 与 $3 之间。",
+	"validator-list-error-invalid-regex": "参数 $1 所有合法的值都必须匹配此正则表达式：$2。",
 	"validator_list_error_invalid_argument": "参数 $1 的一个或多个值不合法。",
+	"validator_list_omitted": "{{PLURAL:$2|值}}$1已省略。",
 	"validator-message-nodesc": "没有提供描述"
 }
