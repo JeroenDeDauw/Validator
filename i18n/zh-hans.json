@@ -60,8 +60,11 @@
 	"validator_error_must_be_integer": "参数 $1 只能为整数。",
 	"validator_error_must_be_title": "参数$1只能是有效的wiki页面名。",
 	"validator_error_must_be_existing_title": "参数$1只能是现有wiki页面名。",
+	"validator-error-must-be-float": "参数$1只能是一个浮点数。",
 	"validator_error_invalid_range": "参数 $1 的范围必须介于 $2 与 $3 之间。",
+	"validator-error-invalid-regex": "参数$1必须匹配此正则表达式：$2。",
 	"validator-error-invalid-length": "参数$1必须指定$2的长度。",
+	"validator-error-invalid-length-range": "参数$1的长度必须介于$2和$3之间。",
 	"validator_error_invalid_argument": "值 $1 对于参数 $2 不合法。",
 	"validator_list_error_empty_argument": "参数 $1 不接受空值。",
 	"validator_list_error_must_be_number": "参数 $1 只能包含数字。",
@@ -72,6 +75,10 @@
 	"validator_list_error_invalid_range": "参数 $1 所有合法的值都必须介于 $2 与 $3 之间。",
 	"validator-list-error-invalid-regex": "参数 $1 所有合法的值都必须匹配此正则表达式：$2。",
 	"validator_list_error_invalid_argument": "参数 $1 的一个或多个值不合法。",
+	"validator-list-error-accepts-only": "参数$1的一个或更多值无效。它只允许以下$3个值：$2。",
+	"validator-list-error-accepts-only-omitted": "参数$1的一个或更多值无效。它只允许以下$3个值：$2（以及$4个省略值）。",
+	"validator_error_accepts_only": "参数$1的值“$4”无效。它只允许以下$3个值：$2。",
+	"validator-error-accepts-only-omitted": "参数$1的值“$2”无效。它只允许以下$5个值：$3（以及$4个省略值）。",
 	"validator_list_omitted": "{{PLURAL:$2|值}}$1已省略。",
 	"validator-message-nodesc": "没有提供描述"
 }
