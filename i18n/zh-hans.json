@@ -54,6 +54,7 @@
 	"validator-describe-header-description": "说明",
 	"validator-describe-parameters": "参数",
 	"validator-describe-syntax": "语法",
+	"validator-describe-tagmin": "只标记需要参数的扩展。",
 	"validator-describe-tagmax": "带所有参数的标签拓展。",
 	"validator_error_empty_argument": "参数 $1 不能为空。",
 	"validator_error_must_be_number": "参数 $1 只能为数字。",
