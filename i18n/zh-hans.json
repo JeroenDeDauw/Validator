@@ -44,6 +44,8 @@
 	"validator-listerrors-fatal": "致命",
 	"validator-describe-descriptionmsg": "'''说明'''：$1",
 	"validator-describe-aliases": "'''{{PLURAL:$2|别名}}'''：$1",
+	"validator-describe-tagextension": "只执行为标签扩展。",
+	"validator-describe-par-language": "要在描述中显示的语言",
 	"validator-describe-listtype": "$1项列表",
 	"validator-describe-empty": "空白",
 	"validator-describe-required": "必填",
