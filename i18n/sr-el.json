@@ -1,4 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Milicevic01"
+		]
+	},
+	"validator-error": "Greška: $1",
 	"validator-listerrors-severity-message": "($1) $2"
 }
