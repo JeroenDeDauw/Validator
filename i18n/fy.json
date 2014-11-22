@@ -4,6 +4,7 @@
 			"Robin0van0der0vliet"
 		]
 	},
+	"validator-warning": "Warskôging: $1",
 	"validator-error": "Flater: $1",
 	"validator-listerrors-normal": "Normaal"
 }
