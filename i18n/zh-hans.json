@@ -64,6 +64,7 @@
 	"validator-describe-syntax": "语法",
 	"validator-describe-tagmin": "只标记需要参数的扩展。",
 	"validator-describe-tagmax": "带所有参数的标签扩展。",
+	"validator-describe-tagdefault": "具有所有参数并使用默认参数表示法的标签扩展。",
 	"validator-describe-pfmin": "只带必须参数的解析器函数。",
 	"validator-describe-pfmax": "带所有参数的解析器函数。",
 	"validator-describe-pfdefault": "带所有使用默认参数符号的参数解析器函数。",
