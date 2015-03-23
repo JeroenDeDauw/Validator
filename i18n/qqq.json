@@ -7,10 +7,11 @@
 			"Purodha",
 			"Raymond",
 			"Shirayuki",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Umherirrender"
 		]
 	},
-	"validator-desc": "{{desc|name=Validator|url=http://www.mediawiki.org/wiki/Extension:Validator}}",
+	"validator-desc": "{{desc|name=Validator|url=https://www.mediawiki.org/wiki/Extension:Validator}}",
 	"validator-warning": "This message indicates an error detected. $1 holds the warning message.\n\n{{Identical|Warning}}",
 	"validator-error": "This message indicates an error detected. $1 holds the error report.\n\n{{Identical|Error}}",
 	"validator-fatal-error": "This message indicates a fatal error detected. $1 holds the fatal error report.",
