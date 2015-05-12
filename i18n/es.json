@@ -6,7 +6,8 @@
 			"Crazymadlover",
 			"Imre",
 			"Translationista",
-			"Fitoschido"
+			"Fitoschido",
+			"Macofe"
 		]
 	},
 	"validator-desc": "Biblioteca de procesamiento de parámetros declarativa",
@@ -57,7 +58,7 @@
 	"validator-describe-header-parameter": "Parámetro",
 	"validator-describe-header-aliases": "Alias",
 	"validator-describe-header-type": "Tipo",
-	"validator-describe-header-default": "Por defecto",
+	"validator-describe-header-default": "Predeterminado",
 	"validator-describe-header-description": "Descripción",
 	"validator-describe-parameters": "Parámetros",
 	"validator-describe-syntax": "Sintaxis",
