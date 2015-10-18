@@ -12,7 +12,7 @@ mv mediawiki-master phase3
 
 wget https://github.com/wikimedia/mediawiki-vendor/archive/master.tar.gz
 tar -zxf master.tar.gz
-mv mediawiki-vendor-master phase3
+mv mediawiki-master phase3/vendor
 
 cd phase3
 
