@@ -10,13 +10,9 @@ wget https://github.com/wikimedia/mediawiki/archive/master.tar.gz
 tar -zxf master.tar.gz
 mv mediawiki-master phase3
 
-wget https://github.com/wikimedia/mediawiki-vendor/archive/master.tar.gz
-tar -zxf master.tar.gz
-mv mediawiki-master phase3/vendor
-
 cd phase3
 
-composer install --prefer-source
+composer update
 
 git checkout master
 
