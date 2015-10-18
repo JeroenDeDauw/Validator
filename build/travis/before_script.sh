@@ -16,7 +16,7 @@ mv mediawiki-master phase3/vendor
 
 cd phase3
 
-composer update
+composer install --prefer-source
 
 git checkout master
 
