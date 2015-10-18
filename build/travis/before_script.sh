@@ -6,9 +6,9 @@ originalDirectory=$(pwd)
 
 cd ..
 
-wget https://github.com/wikimedia/mediawiki-core/archive/$MW.tar.gz
-tar -zxf $MW.tar.gz
-mv mediawiki-core-$MW phase3
+wget https://github.com/wikimedia/mediawiki/archive/master.tar.gz
+tar -zxf master.tar.gz
+mv mediawiki-master phase3
 
 cd phase3
 
