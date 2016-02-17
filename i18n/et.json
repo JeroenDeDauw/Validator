@@ -14,7 +14,7 @@
 	"validator-type-char": "märk",
 	"validator-type-title": "pealkiri",
 	"validator-type-string-list": "tekstide loetelu",
-	"validator-type-float-list": "numbrite loend",
+	"validator-type-float-list": "numbrite loetelu",
 	"validator-listerrors-errors": "Vead",
 	"validator-listerrors-low": "Madal",
 	"validator-listerrors-normal": "Normaalne",

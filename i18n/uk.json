@@ -6,7 +6,8 @@
 			"NickK",
 			"Olvin",
 			"Prima klasy4na",
-			"Ата"
+			"Ата",
+			"Piramidion"
 		]
 	},
 	"validator-desc": "Бібліотека обробки декларативних параметрів",
@@ -20,7 +21,7 @@
 	"validator-error-problem": "Виявлено проблему із параметром $1.",
 	"validator_error_unknown_argument": "$1 не є допустимим параметром.",
 	"validator_error_required_missing": "Не вказано обов'язковий параметр «$1».",
-	"validator-error-override-argument": "Спроба перевизначення параметру $1 (значення: $2) значенням «$3»",
+	"validator-error-override-argument": "Спроба перевизначення параметра $1 (значення: $2) значенням «$3»",
 	"validator-type-string": "текст",
 	"validator-type-integer": "ціле число",
 	"validator-type-float": "число",
@@ -78,7 +79,7 @@
 	"validator-error-invalid-regex": "Параметр $1 повинен відповідати регулярному виразу: $2.",
 	"validator-error-invalid-length": "Параметр $1 повинен мати довжину $2.",
 	"validator-error-invalid-length-range": "Параметр $1 повинен мати довжину від $2 до $3.",
-	"validator_error_invalid_argument": "Значення $1 не є допустимим для параметру $2.",
+	"validator_error_invalid_argument": "Значення $1 не є допустимим для параметра $2.",
 	"validator_list_error_empty_argument": "Параметр $1 не може приймати порожні значення.",
 	"validator_list_error_must_be_number": "Параметр $1 може включати лише числа.",
 	"validator_list_error_must_be_integer": "Параметр $1 може включати лише цілі числа.",

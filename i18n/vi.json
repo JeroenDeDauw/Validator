@@ -10,7 +10,7 @@
 	"validator-warning": "Cảnh báo: $1",
 	"validator-error": "Lỗi: $1",
 	"validator_error_parameters": "{{PLURAL:$1|Lỗi|Các lỗi}} cú pháp sau được nhận ra trong mã của bạn:",
-	"validator_warning_parameters": "Có {{PLURAL:$1|lỗi|lỗi}} cú pháp trong mã của bạn.",
+	"validator_warning_parameters": "Có {{PLURAL:$1}}lỗi cú pháp trong mã của bạn.",
 	"validator_error_unknown_argument": "$1 không phải là tham số hợp lệ.",
 	"validator_error_required_missing": "Không định rõ tham số bắt buộc “$1”.",
 	"validator-type-string": "văn bản",
