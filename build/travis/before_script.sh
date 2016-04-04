@@ -6,13 +6,13 @@ originalDirectory=$(pwd)
 
 cd ..
 
-wget https://github.com/wikimedia/mediawiki-core/archive/$MW.tar.gz
-tar -zxf $MW.tar.gz
-mv mediawiki-core-$MW phase3
+wget https://github.com/wikimedia/mediawiki/archive/master.tar.gz
+tar -zxf master.tar.gz
+mv mediawiki-master phase3
 
 cd phase3
 
-git checkout $MW
+composer update
 
 mysql -e 'create database its_a_mw;'
 php maintenance/install.php --dbtype $DBTYPE --dbuser root --dbname its_a_mw --dbpath $(pwd) --pass nyan TravisWiki admin
