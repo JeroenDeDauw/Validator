@@ -8,11 +8,12 @@ cd ..
 
 wget https://github.com/wikimedia/mediawiki-core/archive/$MW.tar.gz
 tar -zxf $MW.tar.gz
-mv mediawiki-core-$MW phase3
+mv mediawiki-$MW phase3
 
 cd phase3
 
-git checkout $MW
+composer self-update
+composer install --prefer-source
 
 mysql -e 'create database its_a_mw;'
 php maintenance/install.php --dbtype $DBTYPE --dbuser root --dbname its_a_mw --dbpath $(pwd) --pass nyan TravisWiki admin

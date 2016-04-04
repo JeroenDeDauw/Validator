@@ -40,7 +40,9 @@ Validator.php.
 
 Simply include the entry point in your LocalSettings.php file:
 
-	require_once( "$IP/extensions/Validator/Validator.php" );
+```php
+require_once( "$IP/extensions/Validator/Validator.php" );
+```
 
 ## Authors
 
@@ -50,6 +52,11 @@ to support [Maps](https://github.com/JeroenDeDauw/Maps)
 and [Semantic MediaWiki](https://semantic-mediawiki.org/).
 
 ## Release notes
+
+### Version 2.0.5 (2016-04-04)
+
+* Translation updates
+* Compatibility with PHP 7 has now been tested
 
 ### Version 2.0.4 (2014-06-25)
 
