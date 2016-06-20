@@ -8,7 +8,7 @@
 			"XenoPheX"
 		]
 	},
-	"validator-desc": "Validátor poskytuje ostatním rozšířením snadnější způsob ověřování parametrů funkcí parseru a značek, nastavování výchozích hodnot a vytváření chybových zpráv.",
+	"validator-desc": "Knihovna pro deklarativní zpracování parametrů",
 	"validator-warning": "Varování: $1",
 	"validator-error": "Chyba: $1",
 	"validator-fatal-error": "Kritická chyba: $1",
