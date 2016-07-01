@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Jeroen De Dauw",
-			"Daniel Werner"
+			"Daniel Werner",
+			"Karsten Hoffmeyer"
 		]
 	},
 	"validator-desc": "Declarative parameter processing library",
@@ -22,6 +23,7 @@
 	"validator-type-float": "number",
 	"validator-type-boolean": "yes/no",
 	"validator-type-char": "character",
+	"validator-type-dimension": "number and dimensional unit",
 	"validator-type-title": "title",
 	"validator-type-string-list": "list of texts",
 	"validator-type-integer-list": "list of integers",
