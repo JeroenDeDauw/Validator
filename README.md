@@ -58,6 +58,12 @@ and [Semantic MediaWiki](https://semantic-mediawiki.org/).
 
 ## Release notes
 
+### Version 2.0.6 (2016-07-01)
+
+* Added missing system message
+* Translation updates
+* Fixed failing test (only the test itself had an issue)
+
 ### Version 2.0.5 (2016-04-04)
 
 * Translation updates
@@ -262,7 +268,7 @@ Basically everything got rewritten...
 * Added ParameterCriterion and ListParameterCriterion classes for better handling of parameter criteria.
 * Added ParameterManipulation and ListParameterManipulation classes for more structured formatting of parameters.
 * Added ValidationError class to better describe errors.
-* Replaced the error level enum by ValidationError::SEVERITY_ and ValidationError::ACTION_, which are linked in $egErrorActions. 
+* Replaced the error level enum by ValidationError::SEVERITY_ and ValidationError::ACTION_, which are linked in $egErrorActions.
 
 ### Version 0.3.6 (2010-08-26)
 
