@@ -3,7 +3,7 @@
 namespace ParamProcessor\Tests;
 
 use ParamProcessor\MediaWikiTitleValue;
-use ValueParsers\Test\StringValueParserTest;
+use ParamProcessor\TitleParser;
 
 /**
  * @group Validator
@@ -11,15 +11,20 @@ use ValueParsers\Test\StringValueParserTest;
  * @licence GNU GPL v2+
  * @author Jeroen De Dauw < jeroendedauw@gmail.com >
  */
-class TitleParserTest extends StringValueParserTest {
+class TitleParserTest extends \PHPUnit_Framework_TestCase {
 
 	/**
-	 * @see ValueParserTestBase::validInputProvider
-	 *
-	 * @since 0.1
-	 *
-	 * @return array
+	 * @dataProvider validInputProvider
 	 */
+	public function testValidInputs( $input, $expected ) {
+		$parser = new TitleParser();
+
+		$this->assertEquals(
+			$expected,
+			$parser->parse( $input )
+		);
+	}
+
 	public function validInputProvider() {
 		$argLists = array();
 
@@ -33,15 +38,6 @@ class TitleParserTest extends StringValueParserTest {
 		}
 
 		return $argLists;
-	}
-
-	/**
-	 * @see ValueParserTestBase::getParserClass
-	 * @since 0.1
-	 * @return string
-	 */
-	protected function getParserClass() {
-		return 'ParamProcessor\TitleParser';
 	}
 
 }
