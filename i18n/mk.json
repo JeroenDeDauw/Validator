@@ -22,6 +22,7 @@
 	"validator-type-float": "број",
 	"validator-type-boolean": "да/не",
 	"validator-type-char": "знак",
+	"validator-type-dimension": "број и димензионална единица",
 	"validator-type-title": "наслов",
 	"validator-type-string-list": "список на текстови",
 	"validator-type-integer-list": "список на цели броеви",
