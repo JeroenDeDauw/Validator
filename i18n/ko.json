@@ -3,7 +3,8 @@
 		"authors": [
 			"Priviet",
 			"아라",
-			"Ykhwong"
+			"Ykhwong",
+			"Revi"
 		]
 	},
 	"validator-desc": "선언적 변수 처리 라이브러리",
@@ -23,6 +24,7 @@
 	"validator-type-float": "숫자",
 	"validator-type-boolean": "예/아니오",
 	"validator-type-char": "글자",
+	"validator-type-dimension": "수치 단위",
 	"validator-type-title": "제목",
 	"validator-type-string-list": "텍스트 목록",
 	"validator-type-integer-list": "정수 목록",
