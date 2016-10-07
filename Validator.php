@@ -12,7 +12,7 @@ if ( defined( 'ParamProcessor_VERSION' ) ) {
 	return 1;
 }
 
-define( 'Validator_VERSION', '2.0.6' );
+define( 'Validator_VERSION', '2.1.0-alpha' );
 define( 'ParamProcessor_VERSION', Validator_VERSION ); // @deprecated since 1.0
 
 if ( !defined( 'MEDIAWIKI' ) ) {
@@ -31,9 +31,7 @@ if ( !class_exists( 'ParamProcessor\Processor' ) ) {
 	throw new Exception( 'Validator depends on the ParamProcessor library.' );
 }
 
-$GLOBALS['wgMessagesDirs']['Validator'] = __DIR__ . '/i18n';
-$GLOBALS['wgExtensionMessagesFiles']['Validator'] = __DIR__ . '/Validator.i18n.php';
-
+// Display extension information
 $GLOBALS['wgExtensionCredits']['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Validator',
@@ -45,6 +43,9 @@ $GLOBALS['wgExtensionCredits']['other'][] = array(
 	'descriptionmsg' => 'validator-desc',
 	'license-name' => 'GPL-2.0+'
 );
+
+// Internationalization
+$GLOBALS['wgMessagesDirs']['Validator'] = __DIR__ . '/i18n';
 
 /**
  * Hook to add PHPUnit test cases.
