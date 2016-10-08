@@ -58,6 +58,10 @@ and [Semantic MediaWiki](https://semantic-mediawiki.org/).
 
 ## Release notes
 
+### Version 2.1.0 (not released yet)
+
+* Dropped support for MediaWiki older than 1.23
+
 ### Version 2.0.6 (2016-07-01)
 
 * Added missing system message
