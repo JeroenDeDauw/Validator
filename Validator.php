@@ -12,7 +12,7 @@ if ( defined( 'ParamProcessor_VERSION' ) ) {
 	return 1;
 }
 
-define( 'Validator_VERSION', '2.1.0-alpha' );
+define( 'Validator_VERSION', '2.1.0' );
 define( 'ParamProcessor_VERSION', Validator_VERSION ); // @deprecated since 1.0
 
 if ( !defined( 'MEDIAWIKI' ) ) {
@@ -74,9 +74,9 @@ $GLOBALS['wgHooks']['UnitTestsList'][]	= function( array &$files ) {
 	// @codeCoverageIgnoreEnd
 };
 
-$GLOBALS['wgDataValues']['mediawikititle'] = 'ParamProcessor\MediaWikiTitleValue';
+$GLOBALS['wgDataValues']['mediawikititle'] = ParamProcessor\MediaWikiTitleValue::class;
 
 $GLOBALS['wgParamDefinitions']['title'] = array(
-	'string-parser' => '\ParamProcessor\TitleParser',
-	'validator' => '\ValueValidators\TitleValidator',
+	'string-parser' => ParamProcessor\TitleParser::class,
+	'validator' => ValueValidators\TitleValidator::class,
 );
