@@ -28,11 +28,11 @@ the git repository and take care of loading yourself.
 To add this package as a local, per-project dependency to your project, simply add a
 dependency on `mediawiki/validator` to your project's `composer.json` file.
 Here is a minimal example of a `composer.json` file that just defines a dependency on
-Validator 2.1:
+Validator 2.2:
 
     {
         "require": {
-            "mediawiki/validator": "2.1.*"
+            "mediawiki/validator": "2.2.*"
         }
     }
 
@@ -57,6 +57,10 @@ to support [Maps](https://github.com/JeroenDeDauw/Maps)
 and [Semantic MediaWiki](https://semantic-mediawiki.org/).
 
 ## Release notes
+
+### Version 2.2.0 (2016-10-09)
+
+* Improved initialization code so that the entry point can be included when MediaWiki is not loaded
 
 ### Version 2.1.0 (2016-10-09)
 
