@@ -12,7 +12,7 @@ if ( defined( 'ParamProcessor_VERSION' ) ) {
 	return 1;
 }
 
-define( 'Validator_VERSION', '2.1.0' );
+define( 'Validator_VERSION', '2.2.0' );
 define( 'ParamProcessor_VERSION', Validator_VERSION ); // @deprecated since 1.0
 
 $GLOBALS['wgExtensionFunctions'][] = function () {
