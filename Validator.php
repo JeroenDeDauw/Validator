@@ -12,8 +12,12 @@ if ( defined( 'ParamProcessor_VERSION' ) ) {
 	return 1;
 }
 
-define( 'Validator_VERSION', '2.2.0' );
+define( 'Validator_VERSION', '2.2.1' );
 define( 'ParamProcessor_VERSION', Validator_VERSION ); // @deprecated since 1.0
+
+// Internationalization
+$GLOBALS['wgMessagesDirs']['Validator'] = __DIR__ . '/i18n';
+
 
 $GLOBALS['wgExtensionFunctions'][] = function () {
 	if ( version_compare( $GLOBALS['wgVersion'], '1.23c', '<' ) ) {
@@ -40,9 +44,6 @@ $GLOBALS['wgExtensionFunctions'][] = function () {
 		'descriptionmsg' => 'validator-desc',
 		'license-name' => 'GPL-2.0+'
 	);
-
-	// Internationalization
-	$GLOBALS['wgMessagesDirs']['Validator'] = __DIR__ . '/i18n';
 
 	/**
 	 * Hook to add PHPUnit test cases.
