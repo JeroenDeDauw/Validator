@@ -54,9 +54,13 @@ require_once( "$IP/extensions/Validator/Validator.php" );
 Validator has been written by
 [Jeroen De Dauw](https://www.mediawiki.org/wiki/User:Jeroen_De_Dauw)
 to support [Maps](https://github.com/JeroenDeDauw/Maps)
-and [Semantic MediaWiki](https://semantic-mediawiki.org/).
+and [Semantic MediaWiki](https://www.semantic-mediawiki.org/).
 
 ## Release notes
+
+### Version 2.2.1 (2016-10-10)
+
+* Moved i18n registration out of wgExtensionFunctions
 
 ### Version 2.2.0 (2016-10-09)
 
