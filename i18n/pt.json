@@ -93,5 +93,5 @@
 	"validator_error_accepts_only": "O valor \"$4\" não é válido para o parâmetro $1. O parâmetro só aceita {{PLURAL:$3|este valor|estes valores}}: $2.",
 	"validator-error-accepts-only-omitted": "O valor $2 não é válido para o parâmetro $1.\nSó {{PLURAL:$5|é aceite este valor|são aceites estes valores}}: $3 (e $4 {{PLURAL:$4|valor omitido|valores omitidos}}).",
 	"validator_list_omitted": "{{PLURAL:$2|O valor $1 foi omitido|Os valores $1 foram omitidos}}.",
-	"validator-message-nodesc": "Nenhuma descrição fornecida"
+	"validator-message-nodesc": "Não foi fornecida nenhuma descrição"
 }
