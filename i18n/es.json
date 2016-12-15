@@ -22,7 +22,7 @@
 	"validator-error-problem": "Ha habido un problema con el parámetro $1.",
 	"validator_error_unknown_argument": "$1 no es un parámetro válido.",
 	"validator_error_required_missing": "No se ha provisto el parámetro requerido $1.",
-	"validator-error-override-argument": "Se ha intentado sobreescribir el parámetro $1 (valor: $2) con el valor \"$3\"",
+	"validator-error-override-argument": "Se ha intentado sobrescribir el parámetro $1 (valor: $2) con el valor «$3»",
 	"validator-type-string": "texto",
 	"validator-type-integer": "número entero",
 	"validator-type-float": "número",
