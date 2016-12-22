@@ -38,7 +38,7 @@
 	"validator-listerrors-high": "Многу",
 	"validator-listerrors-fatal": "Кобна",
 	"validator-listerrors-description": "Ги наведува грешките (и предупредувањата) што се јавиле кај расчленувачките пресретници додадени преку Потврдувачот (Validator).\nГи наведува само расчленувачките пресретници додадени погоре каде е вметнато „listerrors“;\nставете го „listerrors“ на или близу дното на страницата за да ви се прикажат сите грешки.",
-	"validator-listerrors-par-minseverity": "Минималната сериозност на проблемот за да биде наведен.",
+	"validator-listerrors-par-minseverity": "Најмалата сериозност на проблемот за да биде наведен.",
 	"validator-describe-description": "Создава документација за една или повеќе расчленувачки пресретници определени преку Потврдувачот.",
 	"validator-describe-notfound": "Нема расчленувачки пресретник што работи со „$1“.",
 	"validator-describe-descriptionmsg": "'''Опис''': $1",
