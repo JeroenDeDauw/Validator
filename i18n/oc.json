@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Cedric31",
-			"Jfblanc"
+			"Jfblanc",
+			"Nicolas Eynaud"
 		]
 	},
 	"validator-desc": "Bibliotèca de tractament dels paramètres declaratius",
@@ -20,6 +21,7 @@
 	"validator-type-string-list": "lista de tèxtes",
 	"validator-type-integer-list": "lista de nombres entièrs",
 	"validator-type-float-list": "lista de nombres",
+	"validator-type-title-list": "Lista de títols",
 	"validator-listerrors-errors": "Errors",
 	"validator-listerrors-minor": "Menor",
 	"validator-listerrors-low": "Feble",
