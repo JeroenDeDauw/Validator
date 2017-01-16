@@ -6,7 +6,7 @@
 			"Jon Harald Søby"
 		]
 	},
-	"validator-desc": "Gir generisk støtte for parameterhåndtering fra andre utvidelser",
+	"validator-desc": "Bibliotek for deklarativ parameterprosessering",
 	"validator-warning": "Advarsel: $1",
 	"validator-error": "Feil: $1",
 	"validator-fatal-error": "Kritisk feil: $1",
@@ -23,6 +23,7 @@
 	"validator-type-float": "tall",
 	"validator-type-boolean": "ja/nei",
 	"validator-type-char": "tegn",
+	"validator-type-dimension": "tall med måleenhet",
 	"validator-type-title": "tittel",
 	"validator-type-string-list": "liste over tekster",
 	"validator-type-integer-list": "liste over heltall",
