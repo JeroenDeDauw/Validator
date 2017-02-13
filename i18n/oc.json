@@ -21,7 +21,7 @@
 	"validator-type-string-list": "lista de tèxtes",
 	"validator-type-integer-list": "lista de nombres entièrs",
 	"validator-type-float-list": "lista de nombres",
-	"validator-type-title-list": "Lista de títols",
+	"validator-type-title-list": "lista de títols",
 	"validator-listerrors-errors": "Errors",
 	"validator-listerrors-minor": "Menor",
 	"validator-listerrors-low": "Feble",
