@@ -117,9 +117,8 @@ and [Semantic MediaWiki](https://www.semantic-mediawiki.org/).
 This release is primarily a redesign of many internal APIs aimed at greater
 stability and cleaner interfaces exposed to the outside.
 
-Most code has been moved to the new [ParamProcessor library]
-(https://github.com/JeroenDeDauw/ParamProcessor), leaving the Validator extension
-as a thin MediaWiki specific wrapper.
+Most code has been moved to the new [ParamProcessor library](https://github.com/JeroenDeDauw/ParamProcessor),
+leaving the Validator extension as a thin MediaWiki specific wrapper.
 
 ##### Compatibility changes
 
