@@ -84,6 +84,8 @@
 	"validator_list_error_empty_argument": "O parâmetro $1 não pode estar vazio.",
 	"validator_list_error_must_be_number": "O parâmetro $1 só pode ser numérico.",
 	"validator_list_error_must_be_integer": "O parâmetro $1 só pode ser um número inteiro.",
+	"validator_list_error_must_be_title": "O parâmetro $1 só pode conter nomes válidos de páginas da wiki.",
+	"validator_list_error_must_be_existing_title": "O parâmetro $1 só pode conter nomes válidos de páginas da wiki.",
 	"validator-list-error-must-be-float": "O parâmetro $1 só pode conter valores de vírgula flutuante.",
 	"validator_list_error_invalid_range": "Todos os valores do parâmetro $1 têm de ser entre $2 e $3.",
 	"validator-list-error-invalid-regex": "Todos os valores do parâmetro $1 devem corresponder à expressão regular: $2.",
