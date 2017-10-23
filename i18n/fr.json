@@ -50,7 +50,7 @@
 	"validator-listerrors-fatal": "Fatal",
 	"validator-listerrors-description": "Liste les erreurs (et les avertissements) qui se sont produites dans les « hooks » de l'analyseur syntaxique via « Validator ».\nSeules les listes pour les « hooks » de l'analyseur syntaxique (ajoutées où apparaît <code>listerrors</code>) sont insérées ;\nplacer <code>listerrors</code> au plus bas de la page pour obtenir toutes les erreurs.",
 	"validator-listerrors-par-minseverity": "La sévérité minimale d'une erreur pour être listée.",
-	"validator-describe-description": "Génère la documentation pour un ou plusieurs ''hooks'' de l'analyseur syntaxique ''via'' ''Validator'.",
+	"validator-describe-description": "Génère la documentation pour un ou plusieurs ''hooks'' de l'analyseur syntaxique via ''Validator''.",
 	"validator-describe-notfound": "Il n'y a pas de ''hook'' d'analyseur qui gère « $1 ».",
 	"validator-describe-descriptionmsg": "'''Description''' : $1",
 	"validator-describe-aliases": "'''{{PLURAL:$2|Alias}}''' : $1",
