@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"validator-desc": "Biblioteca declarativa de procesamientu de parámetros",
+	"validator-warning": "Avisu: $1",
+	"validator-error": "Error: $1",
+	"validator-fatal-error": "Error fatal: $1",
+	"validator_error_parameters": "Se {{PLURAL:$1|detectó'l siguiente error|detectaron los siguientes errores}} na sintaxis:",
+	"validator_warning_parameters": "Hai {{PLURAL:$1|un error|errores}} na sintaxis.",
+	"validator-warning-adittional-errors": "... y {{PLURAL:$1|otru problema|munchos más problemes}}.",
+	"validator-error-omitted": "{{PLURAL:$2|Omitióse'l valor|Omitiéronse los valores}} «$1».",
+	"validator-error-problem": "Hubo un problema col parámetru $1.",
+	"validator_error_unknown_argument": "$1 nun ye un parámetru válidu.",
+	"validator_error_required_missing": "Nun s'apurrió'l parámetru riquíu $1.",
+	"validator-error-override-argument": "Tentóse omitir el parámetru $1 (valor: $2) con valor «$3»",
+	"validator-type-string": "testu",
+	"validator-type-integer": "númberu enteru",
+	"validator-type-float": "númberu",
+	"validator-type-boolean": "sí/non",
+	"validator-type-char": "caráuter",
+	"validator-type-dimension": "númberu y unidá de dimensión",
+	"validator-type-title": "títulu",
+	"validator-type-string-list": "llista de testos",
+	"validator-type-integer-list": "llista de númberos enteros",
+	"validator-type-float-list": "llista de númberos",
+	"validator-type-boolean-list": "llista de sí/non",
+	"validator-type-char-list": "llista de carácteres",
+	"validator-type-title-list": "llista de títulos",
+	"validator-listerrors-errors": "Errores",
+	"validator-listerrors-minor": "Menor",
+	"validator-listerrors-low": "Baxu",
+	"validator-listerrors-normal": "Normal",
+	"validator-listerrors-high": "Altu",
+	"validator-listerrors-fatal": "Fatal"
+}
