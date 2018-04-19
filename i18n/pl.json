@@ -9,7 +9,7 @@
 			"Chrumps"
 		]
 	},
-	"validator-desc": "Dostarcza innym rozszerzeniom ogólną obsługę parametrów",
+	"validator-desc": "Deklaratywna biblioteka przetwarzania parametrów",
 	"validator-warning": "Uwaga: $1",
 	"validator-error": "Błąd: $1",
 	"validator-fatal-error": "Błąd krytyczny – $1",
