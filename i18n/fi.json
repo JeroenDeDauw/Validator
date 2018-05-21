@@ -6,7 +6,8 @@
 			"Nedergard",
 			"Silvonen",
 			"Str4nd",
-			"VezonThunder"
+			"VezonThunder",
+			"Pyscowicz"
 		]
 	},
 	"validator-desc": "Tarkastaja tarjoaa helpon tavan muille laajennuksille jäsenninfunktioiden ja tagilaajennusten parametrien tarkastukseen, oletusarvojen asettamiseen ja virheilmoitusten luomiseen.",
@@ -21,11 +22,16 @@
 	"validator-type-char": "merkki",
 	"validator-type-title": "otsikko",
 	"validator-listerrors-errors": "Virheet",
+	"validator-describe-descriptionmsg": "'''Kuvaus''': $1",
 	"validator-describe-empty": "tyhjä",
 	"validator-describe-required": "pakollinen",
+	"validator-describe-header-parameter": "Parametri",
+	"validator-describe-header-aliases": "Aliakset",
 	"validator-describe-header-type": "Tyyppi",
 	"validator-describe-header-default": "Oletus",
 	"validator-describe-header-description": "Kuvaus",
+	"validator-describe-parameters": "Parametrit",
+	"validator-describe-syntax": "Syntaksi",
 	"validator_error_must_be_number": "Parametrin $1 on oltava luku.",
 	"validator_error_must_be_integer": "Parametrin $1 on oltava kokonaisluku."
 }
