@@ -5,8 +5,8 @@ framework that provides a way to declaratively define a set of parameters and ho
 should be processed. It can take such declarations together with a list of raw
 parameters and provide the processed values.
 
-The functionality provided by this extension largely comes from the [ParamProcessor library]
-(https://github.com/JeroenDeDauw/ParamProcessor).
+The functionality provided by this extension largely comes from the
+[ParamProcessor library](https://github.com/JeroenDeDauw/ParamProcessor).
 
 [![Build Status](https://travis-ci.org/JeroenDeDauw/Validator.svg?branch=master)](https://travis-ci.org/JeroenDeDauw/Validator)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/JeroenDeDauw/Validator/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/JeroenDeDauw/Validator/?branch=master)
