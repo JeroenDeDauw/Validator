@@ -17,6 +17,7 @@
 	"validator-type-title": "శీర్షిక",
 	"validator-listerrors-errors": "పొరపాట్లు",
 	"validator-describe-descriptionmsg": "'''వివరణ''': $1",
+	"validator-describe-listtype": "$1 అంశాల జాబితా",
 	"validator-describe-required": "తప్పనిసరి",
 	"validator-describe-header-aliases": "మారుపేర్లు",
 	"validator-describe-header-type": "రకం",
