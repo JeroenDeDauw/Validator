@@ -14,7 +14,10 @@
 	"validator-type-boolean": "ja/nej",
 	"validator-type-char": "tegn",
 	"validator-type-title": "titel",
+	"validator-type-string-list": "liste over tekster",
+	"validator-type-integer-list": "liste over heltal",
 	"validator-type-float-list": "liste over tal",
+	"validator-type-boolean-list": "liste over ja/nej",
 	"validator-type-char-list": "liste over tegn",
 	"validator-type-title-list": "liste over titler",
 	"validator-listerrors-errors": "Fejl",
@@ -24,7 +27,9 @@
 	"validator-listerrors-high": "Høj",
 	"validator-listerrors-fatal": "Kritisk",
 	"validator-describe-descriptionmsg": "'''Beskrivelse''': $1",
+	"validator-describe-empty": "tom",
 	"validator-describe-required": "krævet",
 	"validator-describe-header-type": "Type",
-	"validator-describe-header-description": "Beskrivelse"
+	"validator-describe-header-description": "Beskrivelse",
+	"validator-describe-syntax": "Syntaks"
 }
