@@ -31,5 +31,6 @@
 	"validator-describe-required": "krævet",
 	"validator-describe-header-type": "Type",
 	"validator-describe-header-description": "Beskrivelse",
-	"validator-describe-syntax": "Syntaks"
+	"validator-describe-syntax": "Syntaks",
+	"validator-message-nodesc": "Ingen beskrivelse givet"
 }
