@@ -31,6 +31,7 @@
 	"validator-type-boolean-list": "list of yes/no",
 	"validator-type-char-list": "list characters",
 	"validator-type-title-list": "list of titles",
+	"validator-type-jsonfile": "URL",
 	"validator-listerrors-errors": "Errors",
 	"validator-listerrors-severity-message": "($1) $2",
 	"validator-listerrors-minor": "Minor",
