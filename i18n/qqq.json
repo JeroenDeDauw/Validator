@@ -36,6 +36,7 @@
 	"validator-type-boolean-list": "This is the name of a type of values that may be assigned to a parameter. In this case multiple \"booleans\" (yes or no).\n{{Related|Validator-type}}",
 	"validator-type-char-list": "This is the name of a type of values that may be assigned to a parameter. In this case multiple \"characters\".\n{{Related|Validator-type}}",
 	"validator-type-title-list": "This is the name of a type of values that may be assigned to a parameter. In this case multiple \"page names\".\n{{Related|Validator-type}}",
+	"validator-type-jsonfile": "This is the name of a type of values that may be assigned to a parameter. In this case it is an \"URL\".\n{{Related|Validator-type}}",
 	"validator-listerrors-errors": "This is the title of the section added to a page after inserting the \"listerrors\" tag or the \"listerrors\" parser function. Possible errors which were detected are listed in this section.\n\n{{Identical|Error}}",
 	"validator-listerrors-severity-message": "{{Optional}}\n* $1 = severity\n* $2 = message",
 	"validator-listerrors-minor": "This is the name of a status that is assigned to an error report.\n{{Identical|Minor}}",
