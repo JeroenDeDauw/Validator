@@ -8,6 +8,8 @@
 	"validator-warning": "Advarsel: $1",
 	"validator-error": "Fejl: $1",
 	"validator-fatal-error": "Kritisk fejl: $1",
+	"validator-error-problem": "Der opstod et problem med parameter $1.",
+	"validator_error_unknown_argument": "$1 er ikke en gyldig parameter.",
 	"validator-type-string": "tekst",
 	"validator-type-integer": "heltal",
 	"validator-type-float": "tal",
