@@ -29,10 +29,15 @@
 	"validator-listerrors-high": "Høj",
 	"validator-listerrors-fatal": "Kritisk",
 	"validator-describe-descriptionmsg": "'''Beskrivelse''': $1",
+	"validator-describe-listtype": "Liste over $1 elementer",
 	"validator-describe-empty": "tom",
 	"validator-describe-required": "krævet",
+	"validator-describe-header-parameter": "Parameter",
 	"validator-describe-header-type": "Type",
+	"validator-describe-header-default": "Standard",
 	"validator-describe-header-description": "Beskrivelse",
+	"validator-describe-parameters": "Parametre",
 	"validator-describe-syntax": "Syntaks",
+	"validator_error_must_be_number": "Parameteren $1 kan kun være et tal.",
 	"validator-message-nodesc": "Ingen beskrivelse givet"
 }
