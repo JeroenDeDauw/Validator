@@ -42,5 +42,7 @@
 	"validator-describe-syntax": "Syntaks",
 	"validator_error_must_be_number": "Parameteren $1 kan kun være et tal.",
 	"validator-error-invalid-length": "Parameteren $1 skal have en længde på $2.",
+	"validator_list_error_must_be_number": "Parameteren $1 kan kun indholde tal.",
+	"validator_list_error_invalid_argument": "En eller flere værdier for parameteren $1 er ugyldig.",
 	"validator-message-nodesc": "Ingen beskrivelse givet"
 }
