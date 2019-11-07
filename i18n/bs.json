@@ -2,14 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"CERminator",
-			"Srdjan m"
+			"Srdjan m",
+			"Obsuser"
 		]
 	},
 	"validator-desc": "Deklarativna biblioteka za obradu parametara",
 	"validator-warning": "Upozorenje: $1",
 	"validator-error": "Greška: $1",
 	"validator-fatal-error": "Fatalna greška: $1",
-	"validator_error_parameters": "U Vašoj sintaksi {{PLURAL:$1|je|su}} {{PLURAL:$1|otkivena slijedeća greška|otkrivene slijedeće greške}}:",
+	"validator_error_parameters": "U Vašoj sintaksi {{PLURAL:$1|je|su}} {{PLURAL:$1|otkivena sljedeća greška|otkrivene sljedeće greške}}:",
 	"validator_warning_parameters": "{{PLURAL:$1|Postoji greška|Postoje greške}} u Vašoj sintaksi.",
 	"validator-warning-adittional-errors": "... i {{PLURAL:$1|još jedan problem|još nekoliko problema}}.",
 	"validator_error_unknown_argument": "$1 nije valjan parametar.",
