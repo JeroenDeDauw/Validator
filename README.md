@@ -57,6 +57,11 @@ and [Semantic MediaWiki](https://www.semantic-mediawiki.org/).
 
 ## Release notes
 
+### Version 2.2.2 (2020-01-14)
+
+* Translation updates
+* Installation together with DataValues Common 0.4.x is now supported
+
 ### Version 2.2.1 (2016-10-10)
 
 * Moved i18n registration out of wgExtensionFunctions
