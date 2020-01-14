@@ -38,7 +38,8 @@ $GLOBALS['wgExtensionFunctions'][] = function () {
 		'name' => 'Validator',
 		'version' => Validator_VERSION,
 		'author' => [
-			'[https://www.mediawiki.org/wiki/User:Jeroen_De_Dauw Jeroen De Dauw]'
+			'[https://www.entropywins.wtf/mediawiki Jeroen De Dauw]',
+			'[https://professional.wiki/ Professional.Wiki]',
 		],
 		'url' => 'https://github.com/JeroenDeDauw/Validator',
 		'descriptionmsg' => 'validator-desc',
