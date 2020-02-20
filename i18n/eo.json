@@ -4,7 +4,8 @@
 			"Luckas",
 			"Yekrats",
 			"Mirin",
-			"YvesNevelsteen"
+			"YvesNevelsteen",
+			"Robin van der Vliet"
 		]
 	},
 	"validator-warning": "Averto: $1",
@@ -47,6 +48,6 @@
 	"validator_error_must_be_number": "Parametro $1 nur povas esti numero.",
 	"validator_error_must_be_integer": "Parametro $1 nur povas esti entjero.",
 	"validator_error_invalid_range": "Parametro $1 estu inter $2 kaj $3.",
-	"validator_list_error_invalid_argument": "Unu aŭ pliaj valoroj por parametro $1 estas malvalida.",
+	"validator_list_error_invalid_argument": "Unu aŭ pliaj valoroj por parametro $1 estas nevalida.",
 	"validator-message-nodesc": "Neniu priskribo provizita"
 }
