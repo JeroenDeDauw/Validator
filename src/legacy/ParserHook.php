@@ -550,8 +550,8 @@ abstract class ParserHook {
 		if ( $this->isFunction() ) {
 			return $this->parser->parse(
 				$text,
-				$this->parser->mTitle,
-				$this->parser->mOptions,
+				$this->parser->getTitle(),
+				$this->parser->getOptions(),
 				true,
 				false
 			)->getText();
