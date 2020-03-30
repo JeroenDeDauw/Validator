@@ -3,9 +3,7 @@ language: php
 services:
   - mysql
 
-sudo: false
-
-matrix:
+jobs:
   include:
     - env: DBTYPE=mysql; MW=master; TYPE=coverage
       php: 7.3
@@ -13,8 +11,8 @@ matrix:
       php: 5.5
     - env: DBTYPE=sqlite; MW=1.31.0
       php: 7.0
-    - env: DBTYPE=sqlite; MW=master
-      php: 7.1
+    - env: DBTYPE=sqlite; MW=1.34.1
+      php: 7.2
 
 before_script: bash ./build/travis/before_script.sh
 
