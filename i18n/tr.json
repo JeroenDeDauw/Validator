@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Erdemaslancan",
-			"Vito Genovese",
-			"Stultiwikia",
 			"BaRaN6161 TURK",
-			"Sadrettin"
+			"Erdemaslancan",
+			"Sadrettin",
+			"Stultiwikia",
+			"Vito Genovese"
 		]
 	},
 	"validator-desc": "Bildirici parametre işleme kütüphanesi",

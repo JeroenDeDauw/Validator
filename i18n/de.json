@@ -2,12 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"DaSch",
+			"Das Schäfchen",
 			"Imre",
 			"Kghbln",
 			"LWChris",
 			"Metalhead64",
-			"Purodha",
-			"Das Schäfchen"
+			"Purodha"
 		]
 	},
 	"validator-desc": "Stellt anderen Programmerweiterungen eine deklarative Bibliothek zur Verarbeitung von Parametern bereit",

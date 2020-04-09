@@ -2,8 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"CERminator",
-			"Srdjan m",
-			"Obsuser"
+			"Obsuser",
+			"Srdjan m"
 		]
 	},
 	"validator-desc": "Deklarativna biblioteka za obradu parametara",

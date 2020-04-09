@@ -1,12 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"!Silent",
 			"Cainamarques",
 			"Giro720",
 			"Jaideraf",
 			"Luckas",
-			"Luckas Blade",
-			"!Silent"
+			"Luckas Blade"
 		]
 	},
 	"validator-desc": "Biblioteca para o processamento de parâmetros declarativos",

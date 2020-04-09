@@ -2,10 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"Luckas",
-			"Yekrats",
 			"Mirin",
-			"YvesNevelsteen",
-			"Robin van der Vliet"
+			"Robin van der Vliet",
+			"Yekrats",
+			"YvesNevelsteen"
 		]
 	},
 	"validator-warning": "Averto: $1",

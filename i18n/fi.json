@@ -4,10 +4,10 @@
 			"Beluga",
 			"Crt",
 			"Nedergard",
+			"Pyscowicz",
 			"Silvonen",
 			"Str4nd",
-			"VezonThunder",
-			"Pyscowicz"
+			"VezonThunder"
 		]
 	},
 	"validator-desc": "Tarkastaja tarjoaa helpon tavan muille laajennuksille jäsenninfunktioiden ja tagilaajennusten parametrien tarkastukseen, oletusarvojen asettamiseen ja virheilmoitusten luomiseen.",

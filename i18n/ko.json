@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Nuevo Paso",
 			"Priviet",
-			"아라",
-			"Ykhwong",
 			"Revi",
-			"Nuevo Paso"
+			"Ykhwong",
+			"아라"
 		]
 	},
 	"validator-desc": "선언적 변수 처리 라이브러리",

@@ -1,13 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Cwlin0416",
+			"Kly",
+			"LNDDYL",
+			"Liuxinyu970226",
 			"Mark85296341",
 			"Shirayuki",
-			"Wrightbus",
-			"LNDDYL",
-			"Cwlin0416",
-			"Liuxinyu970226",
-			"Kly"
+			"Wrightbus"
 		]
 	},
 	"validator-desc": "宣告式參數處理程式庫",

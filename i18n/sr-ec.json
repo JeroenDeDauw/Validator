@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Rancher",
+			"BadDog",
 			"Milicevic01",
-			"BadDog"
+			"Rancher"
 		]
 	},
 	"validator-desc": "Библиотека за обраду деклативних параметара",

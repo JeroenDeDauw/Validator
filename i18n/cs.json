@@ -1,12 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Dvorapa",
 			"Matěj Grabovský",
 			"Mormegil",
 			"Reaperman",
 			"Vks",
-			"XenoPheX",
-			"Dvorapa"
+			"XenoPheX"
 		]
 	},
 	"validator-desc": "Knihovna pro deklarativní zpracování parametrů",

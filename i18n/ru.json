@@ -9,10 +9,10 @@
 			"MaxSem",
 			"McDutchie",
 			"Okras",
-			"Van de Bugger",
-			"Александр Сигачёв",
 			"Smigles",
-			"Vlad5250"
+			"Van de Bugger",
+			"Vlad5250",
+			"Александр Сигачёв"
 		]
 	},
 	"validator-desc": "Библиотека обработки декларативных параметров",
