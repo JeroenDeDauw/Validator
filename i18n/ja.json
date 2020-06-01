@@ -3,6 +3,7 @@
 		"authors": [
 			"Aotake",
 			"Fryed-peach",
+			"Kkairri",
 			"Marine-Blue",
 			"Shirayuki",
 			"Whym",
@@ -26,6 +27,8 @@
 	"validator-type-boolean": "はい/いいえ",
 	"validator-type-char": "文字",
 	"validator-type-title": "ページ名",
+	"validator-type-integer-list": "整数のリスト",
+	"validator-type-boolean-list": "はい/いいえのリスト",
 	"validator-listerrors-errors": "エラー",
 	"validator-listerrors-minor": "非常に軽度",
 	"validator-listerrors-low": "軽度",
