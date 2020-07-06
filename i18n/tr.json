@@ -70,7 +70,7 @@
 	"validator-describe-autogen": "Bu bölümün içeriği, Doğrulayıcı uzantısının \"tanımla\" ayrıştırıcı kancası tarafından otomatik olarak oluşturulmuştur.",
 	"validator_error_empty_argument": "$1 parametresi boş bir değere sahip olamaz.",
 	"validator_error_must_be_number": "$1 parametresi yalnızca sayı olabilir.",
-	"validator_error_must_be_integer": "$1 parametresi sadece bir tamsayı olabilir",
+	"validator_error_must_be_integer": "$1 parametresi yalnızca bir tamsayı olabilir",
 	"validator_error_must_be_title": "$1 parametresi yalnızca geçerli bir viki sayfası adı olabilir.",
 	"validator_error_must_be_existing_title": "$1 parametresi yalnızca mevcut bir viki sayfası adı olabilir.",
 	"validator-error-must-be-float": "$1 parametresi yalnızca bir kayan nokta sayısı olabilir.",
