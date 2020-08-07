@@ -3,6 +3,7 @@
 		"authors": [
 			"BaRaN6161 TURK",
 			"Erdemaslancan",
+			"MuratTheTurkish",
 			"Sadrettin",
 			"Stultiwikia",
 			"Vito Genovese"
@@ -12,7 +13,7 @@
 	"validator-warning": "Uyarı: $1",
 	"validator-error": "Hata: $1",
 	"validator-fatal-error": "Önemli hata: $1",
-	"validator_error_parameters": "Söz dizimi takibinde {{PLURAL:$1|hata|hata}} tespit edildi.",
+	"validator_error_parameters": "Söz dizimi takibinde {{PLURAL:$1|hata|hatalar}} tespit edildi.",
 	"validator_warning_parameters": "Söz diziminizde {{PLURAL:$1|hata|hatalar}} var.",
 	"validator-warning-adittional-errors": "... ve {{PLURAL:$1|bir sorun daha|birden fazla sorun}}.",
 	"validator-error-omitted": "{{PLURAL:$2|\"$1\" değeri|\"$1\" değeri}} atlandı.",
@@ -51,7 +52,7 @@
 	"validator-describe-par-hooks": "Ayrıştırıcı, belgelerin görüntüleneceği kancalar.",
 	"validator-describe-par-pre": "Sayfada görüntülenmeden belgeleme için gerçek vikimetin dosyasını almanızı sağlar.",
 	"validator-describe-par-language": "Açıklamaların görüntüleneceği dil",
-	"validator-describe-listtype": "$1 ürün listesi",
+	"validator-describe-listtype": "$1 öğesinin listesi",
 	"validator-describe-empty": "boş",
 	"validator-describe-required": "gerekli",
 	"validator-describe-header-parameter": "Parametre",
@@ -90,8 +91,8 @@
 	"validator_list_error_invalid_argument": "$1 parametresi için bir veya daha fazla değer geçersiz.",
 	"validator-list-error-accepts-only": "$1 parametresi için bir veya daha fazla değer geçersiz. Yalnızca {{PLURAL:$3|bu değer|bu değer}}: $2 kabul ediyor.",
 	"validator-list-error-accepts-only-omitted": "$1 parametresi için bir veya daha fazla değer geçersiz. Yalnızca {{PLURAL:$3|bu değer|bu değerler}}: $2 (ve $4 {{PLURAL:$4|değeri|değeri}}) dahil edilmedi.",
-	"validator_error_accepts_only": "\"$4\" değeri $1 parametresi için geçerli değil. Yalnızca {{PLURAL:$3|budeğer|bu değer}}: $2 kabul ediyor.",
+	"validator_error_accepts_only": "\"$4\" değeri $1 parametresi için geçerli değil. Yalnızca {{PLURAL:$3|bu değer|bu değer}}: $2 kabul ediyor.",
 	"validator-error-accepts-only-omitted": "\"$2\" değeri $1 parametresi için geçerli değil. Yalnızca {{PLURAL:$5|bu değer|bu değer}}: $3 (ve $4 {{PLURAL:$4|değer|değer}} hariç tutuldu).",
-	"validator_list_omitted": "{{PLURAL:$2|değeri|değeri}} $1 atlandı.",
+	"validator_list_omitted": "$1 {{PLURAL:$2|değeri|değeri}} atlandı.",
 	"validator-message-nodesc": "Açıklama yok"
 }
