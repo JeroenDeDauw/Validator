@@ -44,7 +44,7 @@
 	"validator-describe-required": "обавезно",
 	"validator-describe-header-parameter": "Параметар",
 	"validator-describe-header-aliases": "Псеудоними",
-	"validator-describe-header-type": "Тип",
+	"validator-describe-header-type": "Врста",
 	"validator-describe-header-default": "Подразумевано",
 	"validator-describe-header-description": "Опис",
 	"validator-describe-parameters": "Параметри",
