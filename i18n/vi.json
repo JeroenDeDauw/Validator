@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ioe2015",
 			"Minh Nguyen",
 			"Vinhtantran",
 			"පසිඳු කාවින්ද"
@@ -41,11 +42,13 @@
 	"validator_error_must_be_number": "Tham số “$1” phải là con số.",
 	"validator_error_must_be_integer": "Tham số “$1” phải là số nguyên.",
 	"validator_error_invalid_range": "Tham số “$1” phải nằm giữa $2 và $3.",
+	"validator-error-invalid-regex": "Tham số $1 phải khớp với biểu thức chính quy này: $2.",
 	"validator_error_invalid_argument": "Giá trị “$1” không hợp tham số “$2”.",
 	"validator_list_error_empty_argument": "Không được để trống tham số “$1”.",
 	"validator_list_error_must_be_number": "Tham số “$1” chỉ được phép bao gồm con số.",
 	"validator_list_error_must_be_integer": "Tham số “$1” chỉ được phép bao gồm số nguyên.",
 	"validator_list_error_invalid_range": "Tất cả các giá trị của tham số “$1” phải nằm giữa $2 và $3.",
+	"validator-list-error-invalid-regex": "Tất cả giá trị của tham số $1 phải khớp với biểu thức chính quy này: $2.",
 	"validator_list_error_invalid_argument": "Ít nhất một giá trị của tham số “$1” không hợp lệ.",
 	"validator_error_accepts_only": "Tham số $1 có giá trị không hợp lệ “$4”. Tham số chỉ nhận được {{PLURAL:$3|giá trị|các giá trị}} này: $2.",
 	"validator_list_omitted": "{{PLURAL:$2|Giá trị|Các giá trị}} “$1” bị bỏ qua."

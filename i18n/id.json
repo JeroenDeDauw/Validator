@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Bennylin",
+			"Daud I.F. Argana",
 			"Farras",
 			"Irwangatot",
 			"IvanLanin",
 			"Kenrick95"
 		]
 	},
-	"validator-desc": "Validator memberikan cara mudah untuk ekstensi lain untuk memvalidasi parameter ParserFunction dan ekstensi tag, mengatur nilai biasa dan membuat pesan kesalahan",
+	"validator-desc": "Pustaka pemroses parameter secara deklaratif",
 	"validator-warning": "Peringatan: $1",
 	"validator-error": "Kesalahan: $1",
 	"validator-fatal-error": "Kesalahan fatal: $1",
