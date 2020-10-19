@@ -12,7 +12,7 @@
 	"validator-type-integer": "дуьззина терахь",
 	"validator-type-float": "терахь",
 	"validator-type-boolean": "хӀаъ/хӀан-хӀа",
-	"validator-type-char": "символ",
+	"validator-type-char": "хьаьрк",
 	"validator-type-title": "цӀе",
 	"validator-type-string-list": "йозанийн могӀам",
 	"validator-type-integer-list": "дуьззина терхьийн могӀам",
