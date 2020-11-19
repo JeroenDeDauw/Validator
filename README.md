@@ -57,6 +57,12 @@ and [Semantic MediaWiki](https://www.semantic-mediawiki.org/).
 
 ## Release notes
 
+### Version 2.2.3 (2020-11-19)
+
+* Translation updates
+* Fixed broken test causing other MediaWiki tests to also fail
+* Installation together with DataValues Common 1.x is now supported
+
 ### Version 2.2.2 (2020-01-14)
 
 * Translation updates

@@ -27,7 +27,7 @@
 		"param-processor/param-processor": "~1.1"
 	},
 	"require-dev": {
-		"data-values/common": "~0.4.0|~0.3.1"
+		"data-values/common": "~1.0|~0.4.0|~0.3.1"
 	},
 	"autoload": {
 		"files" : [
