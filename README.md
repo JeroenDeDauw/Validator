@@ -10,9 +10,6 @@ The functionality provided by this extension largely comes from the
 
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/JeroenDeDauw/Validator/CI)](https://github.com/JeroenDeDauw/Validator/actions?query=workflow%3ACI)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/JeroenDeDauw/Validator/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/JeroenDeDauw/Validator/?branch=master)
-
-
-On [Packagist](https://packagist.org/packages/mediawiki/validator):
 [![Latest Stable Version](https://poser.pugx.org/mediawiki/validator/version.png)](https://packagist.org/packages/mediawiki/validator)
 [![Download count](https://poser.pugx.org/mediawiki/validator/d/total.png)](https://packagist.org/packages/mediawiki/validator)
 
