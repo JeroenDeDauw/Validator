@@ -4,6 +4,7 @@ namespace ParamProcessor\Tests;
 
 use ParamProcessor\MediaWikiTitleValue;
 use ParamProcessor\TitleParser;
+use PHPUnit\Framework\TestCase;
 
 /**
  * @group Validator
@@ -11,7 +12,7 @@ use ParamProcessor\TitleParser;
  * @licence GNU GPL v2+
  * @author Jeroen De Dauw < jeroendedauw@gmail.com >
  */
-class TitleParserTest extends \PHPUnit_Framework_TestCase {
+class TitleParserTest extends TestCase {
 
 	/**
 	 * @dataProvider validInputProvider
