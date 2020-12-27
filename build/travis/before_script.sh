@@ -12,7 +12,7 @@ mv mediawiki-$MW phase3
 
 cd phase3
 
-composer self-update
+composer self-update --1
 composer install --prefer-source
 
 mysql -e 'create database its_a_mw;'
