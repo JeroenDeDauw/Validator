@@ -4,6 +4,7 @@
 			"EugeneZelenko",
 			"Jim-by",
 			"Red Winged Duck",
+			"Renessaince",
 			"Wizardist"
 		]
 	},
@@ -56,7 +57,7 @@
 	"validator-describe-header-parameter": "Парамэтар",
 	"validator-describe-header-aliases": "Псэўданімы",
 	"validator-describe-header-type": "Тып",
-	"validator-describe-header-default": "Па змоўчваньні",
+	"validator-describe-header-default": "Дапомна",
 	"validator-describe-header-description": "Апісаньне",
 	"validator-describe-parameters": "Парамэтры",
 	"validator-describe-syntax": "Сынтаксіс",
