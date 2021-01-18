@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar",
+			"Janezdrilc"
+		]
+	},
+	"validator-listerrors-normal": "Normalno",
+	"validator-describe-description": "Ustvari dokumentacijo za eno ali več funkcij razčlenjevalnika razširitve Validator.",
+	"validator-describe-descriptionmsg": "'''Opis''': $1",
+	"validator-describe-aliases": "'''{{PLURAL:$2|Drugo ime|Drugi imeni|Druga imena}}''': $1",
+	"validator-describe-parserfunction": "Uvedeno samo kot funkcija razčlenjevalnika.",
+	"validator-describe-tagextension": "Uvedeno samo kot razširitev označevanja.",
+	"validator-describe-bothhooks": "Uvedeno kot funkcija razčlenjevalnika in kot razširitev označevanja.",
+	"validator-describe-par-hooks": "Funkcija razčlenjevalnika, za katero se uporablja dokumentacija.",
+	"validator-describe-par-pre": "Omogoča pridobitev dejanskega wikibesedila dokumentacije brez prikaza na strani.",
+	"validator-describe-par-language": "Jezik za prikaz opisov",
+	"validator-describe-listtype": "Seznam $1 predmetov",
+	"validator-describe-empty": "prazno",
+	"validator-describe-required": "obvezno",
+	"validator-describe-header-parameter": "Parameter",
+	"validator-describe-header-aliases": "Druga imena",
+	"validator-describe-header-type": "Vrsta",
+	"validator-describe-header-default": "Privzeto",
+	"validator-describe-header-description": "Opis",
+	"validator-describe-parameters": "Parametri",
+	"validator-describe-tagmin": "Razširitev označevanja, ki vključuje samo obvezne parametre.",
+	"validator-describe-tagmax": "Razširitev označevanja z vsemi parametri.",
+	"validator-describe-tagdefault": "Razširitev označevanja z vsemi parametri in uporabo privzete parametrske notacije.",
+	"validator-describe-pfmin": "Funkcija razčlenjevalnika s samo obveznimi parametri.",
+	"validator-describe-pfmax": "Funkcija razčlenjevalnika z vsemi parametri.",
+	"validator-describe-pfdefault": "Funkcija razčlenjevalnika z vsemi parametri, ki uporabljajo privzeto parametrsko notacijo.",
+	"validator-describe-autogen": "Vsebino tega razdelka je samodejno ustvarila funkcija »describe« razčlenjevalnika razširitve Validator."
+}
