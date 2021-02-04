@@ -3,15 +3,22 @@
 		"authors": [
 			"DCLXVI",
 			"Reedy",
+			"StanProg",
 			"පසිඳු කාවින්ද"
 		]
 	},
+	"validator-warning": "Внимание: $1",
 	"validator-type-string": "текст",
 	"validator-type-float": "номер",
+	"validator-type-boolean": "да/не",
 	"validator-type-title": "заглавие",
+	"validator-listerrors-errors": "Грешки",
 	"validator-describe-empty": "празно",
 	"validator-describe-header-type": "Тип",
 	"validator-describe-header-default": "По подразбиране",
+	"validator-describe-header-description": "Описание",
 	"validator-describe-parameters": "Параметри",
-	"validator_error_empty_argument": "Параметърът $1 не може да има празна стойност."
+	"validator-describe-syntax": "Синтаксис",
+	"validator_error_empty_argument": "Параметърът $1 не може да има празна стойност.",
+	"validator-message-nodesc": "Не е предоставено описание"
 }

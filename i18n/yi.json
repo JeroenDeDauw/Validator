@@ -1,12 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
+			"פוילישער",
 			"පසිඳු කාවින්ද"
 		]
 	},
 	"validator-type-string": "טעקסט",
 	"validator-type-title": "קעפל",
+	"validator-listerrors-errors": "פֿעלער",
 	"validator-listerrors-normal": "נארמאַל",
 	"validator-describe-empty": "ליידיק",
-	"validator-describe-header-description": "באַשרײַבונג"
+	"validator-describe-header-description": "באַשרײַבונג",
+	"validator-describe-parameters": "פאראמעטערס"
 }

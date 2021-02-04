@@ -2,18 +2,21 @@
 	"@metadata": {
 		"authors": [
 			"Erdemaslancan",
+			"Kumkumuk",
 			"Mirzali"
 		]
 	},
-	"validator-listerrors-errors": "Xırabi",
-	"validator-listerrors-minor": "Qıcek",
+	"validator-warning": "Tembe kem:$1",
+	"validator-listerrors-errors": "Xeteyi",
+	"validator-listerrors-minor": "Qıckek",
 	"validator-listerrors-low": "Kemi",
 	"validator-listerrors-normal": "Normal",
 	"validator-listerrors-high": "Berz",
+	"validator-describe-descriptionmsg": "'''Şınasnayış''': $1",
 	"validator-describe-required": "lazım",
 	"validator-describe-header-parameter": "Parametre",
 	"validator-describe-header-type": "Babet",
 	"validator-describe-header-default": "Hesabiyaye",
 	"validator-describe-header-description": "Şınasnayış",
-	"validator-describe-parameters": "Parametrey"
+	"validator-describe-parameters": "Parametreyi"
 }

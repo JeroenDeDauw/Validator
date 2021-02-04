@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"George Animal"
+			"George Animal",
+			"Ghybu"
 		]
 	},
-	"validator-error": "Çewtî:$1",
+	"validator-error": "Çewtî: $1",
 	"validator-type-string": "nivîs",
 	"validator-type-boolean": "erê/na",
 	"validator-type-title": "sernav",
