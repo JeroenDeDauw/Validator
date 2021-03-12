@@ -61,7 +61,7 @@
 	"validator-describe-header-default": "Varsayılan",
 	"validator-describe-header-description": "Açıklama",
 	"validator-describe-parameters": "Parametreler",
-	"validator-describe-syntax": "Sözdizimi",
+	"validator-describe-syntax": "Sözdizim",
 	"validator-describe-tagmin": "Yalnızca gerekli parametrelerle etiket uzantısı.",
 	"validator-describe-tagmax": "Tüm parametrelerle etiket uzantısı.",
 	"validator-describe-tagdefault": "Varsayılan parametre gösterimini kullanarak tüm parametrelerle etiket uzantısı.",
