@@ -43,6 +43,7 @@
 	"validator-type-char-list": "caractères de la liste",
 	"validator-type-title-list": "liste de titres",
 	"validator-listerrors-errors": "Erreurs",
+	"validator-listerrors-severity-message": "($1) $2",
 	"validator-listerrors-minor": "Mineur",
 	"validator-listerrors-low": "Faible",
 	"validator-listerrors-normal": "Normal",
