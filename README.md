@@ -42,7 +42,7 @@ Validator.php.
 Simply include the entry point in your LocalSettings.php file:
 
 ```php
-require_once( "$IP/extensions/Validator/Validator.php" );
+wfLoadExtension( 'Validator' );
 ```
 
 ## Authors
@@ -53,6 +53,11 @@ to support [Maps](https://github.com/JeroenDeDauw/Maps)
 and [Semantic MediaWiki](https://www.semantic-mediawiki.org/).
 
 ## Release notes
+
+### Version 2.2.5 (2021-04-16)
+
+* Convert to ExtensionRegistry
+* Dropped support for MediaWiki older than 1.35
 
 ### Version 2.2.3 (2020-11-19)
 
