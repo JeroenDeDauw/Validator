@@ -1,3 +1,4 @@
+<?php
 class ValidatorHooks {
 	public static function onRegistration() {
 		if ( !class_exists( ParamProcessor\Processor::class ) ) {
