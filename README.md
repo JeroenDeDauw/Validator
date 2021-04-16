@@ -37,7 +37,7 @@ Validator 2.2:
 Get the Validator code, either via git, or some other means. Also get all dependencies.
 You can find a list of the dependencies in the "require" section of the composer.json file.
 
-Simply load the extension in your LocalSettings.php file by:
+Simply load the extension in your LocalSettings.php file with:
 
 ```php
 wfLoadExtension( 'Validator' );
