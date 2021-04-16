@@ -1,0 +1,29 @@
+{
+	"name": "Validator",
+	"version": "2.2.5",
+	"author": [
+		"[https://www.entropywins.wtf/mediawiki Jeroen De Dauw]",
+		"[https://professional.wiki/ Professional.Wiki]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Pipe_Escape",
+	"descriptionmsg": "validator-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"callback": "ValidatorHooks::onRegistration",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"MessagesDirs": {
+		"Validator": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"ValidatorHooks": "src/ValidatorHooks.php"
+	},
+	"Hooks": {
+		"UnitTestsList": "ValidatorHooks::onUnitTestsList"
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 2
+}
