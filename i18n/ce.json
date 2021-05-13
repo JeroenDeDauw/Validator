@@ -27,7 +27,7 @@
 	"validator-listerrors-high": "Лаккхара",
 	"validator-listerrors-fatal": "Фаталан",
 	"validator-describe-descriptionmsg": "'''Цуьнах лаьцна''': $1",
-	"validator-describe-par-language": "Яздаран йолу интерфейсан мотт",
+	"validator-describe-par-language": "Йаздаран йолу интерфейсан мотт",
 	"validator-describe-required": "оьшу",
 	"validator-describe-header-type": "Тайпа",
 	"validator-describe-header-default": "Ӏадйитаран кеп",
