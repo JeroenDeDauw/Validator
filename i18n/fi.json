@@ -3,6 +3,7 @@
 		"authors": [
 			"Beluga",
 			"Crt",
+			"MITO",
 			"Nedergard",
 			"Pyscowicz",
 			"Silvonen",
@@ -22,6 +23,11 @@
 	"validator-type-char": "merkki",
 	"validator-type-title": "otsikko",
 	"validator-listerrors-errors": "Virheet",
+	"validator-listerrors-minor": "Pieni",
+	"validator-listerrors-low": "Matala",
+	"validator-listerrors-normal": "Normaali",
+	"validator-listerrors-high": "Korkea",
+	"validator-listerrors-fatal": "Kohtalokas",
 	"validator-describe-descriptionmsg": "'''Kuvaus''': $1",
 	"validator-describe-empty": "tyhjä",
 	"validator-describe-required": "pakollinen",
@@ -33,5 +39,10 @@
 	"validator-describe-parameters": "Parametrit",
 	"validator-describe-syntax": "Syntaksi",
 	"validator_error_must_be_number": "Parametrin $1 on oltava luku.",
-	"validator_error_must_be_integer": "Parametrin $1 on oltava kokonaisluku."
+	"validator_error_must_be_integer": "Parametrin $1 on oltava kokonaisluku.",
+	"validator_list_error_must_be_number": "Parametri $1 voi sisältää vain numeroita.",
+	"validator_list_error_must_be_integer": "Parametri $1 voi sisältää vain kokonaislukuja.",
+	"validator_list_error_must_be_title": "Parametri $1 voi sisältää vain kelvollisia wikisivujen nimiä.",
+	"validator_list_error_must_be_existing_title": "Parametri $1 voi sisältää vain olemassa olevia wikisivujen nimiä.",
+	"validator-message-nodesc": "Kuvausta ei annettu"
 }
