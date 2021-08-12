@@ -3,6 +3,7 @@
 		"authors": [
 			"Andriykopanytsia",
 			"Base",
+			"DDPAT",
 			"NickK",
 			"Olvin",
 			"Piramidion",
@@ -36,6 +37,7 @@
 	"validator-type-char-list": "список символів",
 	"validator-type-title-list": "список заголовків",
 	"validator-listerrors-errors": "Помилки",
+	"validator-listerrors-severity-message": "($1) $2",
 	"validator-listerrors-minor": "Незначна",
 	"validator-listerrors-low": "Низька",
 	"validator-listerrors-normal": "Звичайна",
