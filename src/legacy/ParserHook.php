@@ -299,7 +299,13 @@ abstract class ParserHook {
 			 *                happen in Parser::braceSubstitution() if 'isHTML' is set!
 			 *  @ToDo: other options besides 'isHTML' like 'noparse' are ignored here!
 			 */
-			return $this->parser->insertStripItem( $output, $this->parser->mStripState );
+			if ( method_exists( $parser, 'getStripState' ) ) {
+				// MW 1.34+
+				$stripState = $this->parser->getStripState();
+			} else {
+				$stripState = $this->parser->mStripState;
+			}
+			return $this->parser->insertStripItem( $output, $stripState );
 		}
 
 		return array_merge(
