@@ -57,7 +57,7 @@
 	"validator-describe-empty": "boş",
 	"validator-describe-required": "gerekli",
 	"validator-describe-header-parameter": "Parametre",
-	"validator-describe-header-aliases": "Eşdeşler",
+	"validator-describe-header-aliases": "Diğer adlar",
 	"validator-describe-header-type": "Tür",
 	"validator-describe-header-default": "Varsayılan",
 	"validator-describe-header-description": "Açıklama",
