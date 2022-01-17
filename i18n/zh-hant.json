@@ -7,6 +7,7 @@
 			"Liuxinyu970226",
 			"Mark85296341",
 			"Shirayuki",
+			"Tranve",
 			"Wrightbus"
 		]
 	},
@@ -52,7 +53,7 @@
 	"validator-describe-tagextension": "僅開啟標籤擴充套件。",
 	"validator-describe-bothhooks": "開啟分析器函數與標籤擴充套件。",
 	"validator-describe-par-hooks": "顯示文件用的解析掛勾。",
-	"validator-describe-par-pre": "允許您取得文件的實際 wiki 文字，而不必需要呈現在頁面上。",
+	"validator-describe-par-pre": "允許您取得文件的實際 wikitext，而不必需要呈現在頁面上。",
 	"validator-describe-par-language": "在描述裡顯示的語言",
 	"validator-describe-listtype": "$1 個清單項目",
 	"validator-describe-empty": "空白",
