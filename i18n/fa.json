@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Armin1392",
+			"Beginneruser",
 			"Mjbmr",
 			"پاناروما"
 		]
@@ -54,7 +55,7 @@
 	"validator-describe-header-parameter": "مولفه",
 	"validator-describe-header-aliases": "نام‌های مستعار",
 	"validator-describe-header-type": "نوع",
-	"validator-describe-header-default": "پیش فرض",
+	"validator-describe-header-default": "پیش‌فرض",
 	"validator-describe-header-description": "تشریح",
 	"validator-describe-parameters": "پارامترها",
 	"validator-describe-syntax": "نحو",
