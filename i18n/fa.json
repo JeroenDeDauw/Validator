@@ -23,7 +23,7 @@
 	"validator-type-integer": "عدد صحیح",
 	"validator-type-float": "شماره",
 	"validator-type-boolean": "بله/خیر",
-	"validator-type-char": "شخصیت",
+	"validator-type-char": "نویسه",
 	"validator-type-title": "عنوان",
 	"validator-type-string-list": "فهرست متون",
 	"validator-type-integer-list": "فهرست اعداد صحیح",
