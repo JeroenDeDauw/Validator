@@ -59,7 +59,7 @@
 	"validator-describe-tagextension": "Mis en œuvre seulement comme balise d'extension.",
 	"validator-describe-bothhooks": "Mis en œuvre comme fonction de l'analyseur syntaxique et comme balise d'extension.",
 	"validator-describe-par-hooks": "Les ''hooks'' de l'analyseur syntaxique dont il faut afficher la documentation.",
-	"validator-describe-par-pre": "Vous permet d'obtenir le wikitexte courant de la documentation, sans qu'il soit rendu sur la page.",
+	"validator-describe-par-pre": "Vous permet d’obtenir le wikicode effectif pour la documentation, sans qu’il soit rendu sur la page.",
 	"validator-describe-par-language": "La langue dans laquelle afficher les descriptions",
 	"validator-describe-listtype": "Liste de $1 éléments",
 	"validator-describe-empty": "vide",
