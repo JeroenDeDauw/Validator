@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joao Xavier"
+		]
+	},
+	"validator-error": "Eroro: $1",
+	"validator-type-string": "texto",
+	"validator-type-integer": "algarismo",
+	"validator-type-float": "nombro",
+	"validator-type-boolean": "yes/no",
+	"validator-type-char": "karaktero",
+	"validator-type-dimension": "nombro e mezur-unajo",
+	"validator-type-title": "titulo",
+	"validator-type-string-list": "listo pri texti",
+	"validator-type-integer-list": "listo pri nombri",
+	"validator-type-float-list": "listo pri nombri",
+	"validator-type-boolean-list": "listo havanta yes/no",
+	"validator-type-char-list": "listo di karakteri",
+	"validator-type-title-list": "listo di tituli",
+	"validator-listerrors-errors": "Erori",
+	"validator-listerrors-minor": "Minora",
+	"validator-describe-description": "Kreas dokumentado por un o plusa asociuri (''parser hooks'') definita da Validator.",
+	"validator-describe-descriptionmsg": "'''Deskripto''': $1",
+	"validator-describe-aliases": "'''{{PLURAL:$2|Surnomo (''alias'')|Surnomi (''alias'')}}''': $1",
+	"validator-describe-bothhooks": "Realigita ambe kom funciono ''parser'' ed extenso-etiketo.",
+	"validator-describe-empty": "vakua",
+	"validator-describe-header-aliases": "Aliasi",
+	"validator-describe-header-default": "Predeterminita",
+	"validator-describe-header-description": "Deskripto",
+	"validator-describe-parameters": "Parametri",
+	"validator-describe-autogen": "La kontenajo di ca sesiono kreesis dal ''parser'' \"deskriptez (''describe'')\" de la validigilo."
+}
