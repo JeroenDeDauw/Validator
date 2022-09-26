@@ -5,6 +5,7 @@
 			"Janezdrilc"
 		]
 	},
+	"validator-error": "Napaka: $1",
 	"validator-type-string": "besedilo",
 	"validator-type-integer": "celo število",
 	"validator-type-float": "število",
@@ -18,6 +19,7 @@
 	"validator-type-boolean-list": "seznam da/ne",
 	"validator-type-char-list": "seznam znakov",
 	"validator-type-title-list": "seznam naslovov",
+	"validator-listerrors-errors": "Napake",
 	"validator-listerrors-normal": "Normalno",
 	"validator-describe-description": "Ustvari dokumentacijo za eno ali več funkcij razčlenjevalnika razširitve Validator.",
 	"validator-describe-descriptionmsg": "'''Opis''': $1",
@@ -37,6 +39,7 @@
 	"validator-describe-header-default": "Privzeto",
 	"validator-describe-header-description": "Opis",
 	"validator-describe-parameters": "Parametri",
+	"validator-describe-syntax": "Skladnja",
 	"validator-describe-tagmin": "Razširitev označevanja, ki vključuje samo obvezne parametre.",
 	"validator-describe-tagmax": "Razširitev označevanja z vsemi parametri.",
 	"validator-describe-tagdefault": "Razširitev označevanja z vsemi parametri in uporabo privzete parametrske notacije.",
