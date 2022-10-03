@@ -28,7 +28,7 @@
 	"validator-describe-tagextension": "Uvedeno samo kot razširitev označevanja.",
 	"validator-describe-bothhooks": "Uvedeno kot funkcija razčlenjevalnika in kot razširitev označevanja.",
 	"validator-describe-par-hooks": "Funkcija razčlenjevalnika, za katero se uporablja dokumentacija.",
-	"validator-describe-par-pre": "Omogoča pridobitev dejanskega wikibesedila dokumentacije brez prikaza na strani.",
+	"validator-describe-par-pre": "Omogoča pridobitev dejanskega vikibesedila dokumentacije brez prikaza na strani.",
 	"validator-describe-par-language": "Jezik za prikaz opisov",
 	"validator-describe-listtype": "Seznam $1 predmetov",
 	"validator-describe-empty": "prazno",
