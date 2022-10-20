@@ -22,7 +22,7 @@
 	"validator-error": "Erreur : $1",
 	"validator-fatal-error": "Erreur fatale : $1",
 	"validator_error_parameters": "{{PLURAL:$1|L’erreur suivante a été détectée|Les erreurs suivantes ont été détectées}} dans votre syntaxe :",
-	"validator_warning_parameters": "Il y a {{PLURAL:$1|une erreur|des erreurs}} dans votre syntaxe.",
+	"validator_warning_parameters": "Il y a {{PLURAL:$1|une|des}} erreur{{PLURAL:$1||s}} dans votre syntaxe.",
 	"validator-warning-adittional-errors": "... ainsi {{PLURAL:$1|qu'un problème supplémentaire|que plusieurs autres problèmes}}.",
 	"validator-error-omitted": "{{PLURAL:$2|La valeur « $1 » a été oubliée|Les valeurs « $1 » ont été oubliées}}.",
 	"validator-error-problem": "Il y a un problème avec le paramètre $1.",
