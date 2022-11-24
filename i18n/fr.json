@@ -54,7 +54,7 @@
 	"validator-describe-description": "Génère la documentation pour un ou plusieurs ''hooks'' de l'analyseur syntaxique via ''Validator''.",
 	"validator-describe-notfound": "Il n'y a pas de ''hook'' d'analyseur qui gère « $1 ».",
 	"validator-describe-descriptionmsg": "'''Description''' : $1",
-	"validator-describe-aliases": "'''{{PLURAL:$2|Alias}}''' : $1",
+	"validator-describe-aliases": "'''Alias{{PLURAL:$2|}} :''' $1",
 	"validator-describe-parserfunction": "Mis en œuvre uniquement comme fonction de l'analyseur syntaxique.",
 	"validator-describe-tagextension": "Mis en œuvre seulement comme balise d'extension.",
 	"validator-describe-bothhooks": "Mis en œuvre comme fonction de l'analyseur syntaxique et comme balise d'extension.",
