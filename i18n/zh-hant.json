@@ -10,7 +10,8 @@
 			"Mark85296341",
 			"Shirayuki",
 			"Tranve",
-			"Wrightbus"
+			"Wrightbus",
+			"捍粵者"
 		]
 	},
 	"validator-desc": "宣告式參數處理程式庫",
@@ -93,11 +94,11 @@
 	"validator-list-error-must-be-float": "參數 $1 只能包含浮點數。",
 	"validator_list_error_invalid_range": "參數 $1 所有的參數值都必須介於 $2 與 $3 之間。",
 	"validator-list-error-invalid-regex": "參數 $1 所有的參數值都必須符合此正規表示法：$2。",
-	"validator_list_error_invalid_argument": "參數 $1 的一個或多個參數值無效。",
-	"validator-list-error-accepts-only": "參數 $1 的一個或多個參數值無效，只接受{{PLURAL:$3|參數值|參數值}}：$2。",
-	"validator-list-error-accepts-only-omitted": "參數 $1 的一個或多個參數值無效，只接受{{PLURAL:$3|參數值|參數值}}：$2 (且略過 $4 個{{PLURAL:$4|參數值|參數值}})。",
+	"validator_list_error_invalid_argument": "參數$1有無效參數值",
+	"validator-list-error-accepts-only": "參數$1有無效參數值，只接受參數值$2",
+	"validator-list-error-accepts-only-omitted": "參數$1有無效參數值，只接受參數值$2（且略過$4個參數值）。",
 	"validator_error_accepts_only": "參數 $1 的參數值 \"$4\" 無效，只接受{{PLURAL:$3|參數值|參數值}}：$2。",
-	"validator-error-accepts-only-omitted": "參數 $1 的參數值 \"$2\" 無效，只接受{{PLURAL:$5|參數值|參數值}}：$3 (且略過 $4 個{{PLURAL:$4|參數值|參數值}})。",
+	"validator-error-accepts-only-omitted": "參數$1的參數值「$2」無效，只接受參數值$3（且略過$4個參數值）。",
 	"validator_list_omitted": "已略過 $1 個{{PLURAL:$2|參數值}}。",
 	"validator-message-nodesc": "未提供任何描述"
 }
