@@ -21,6 +21,7 @@
 	"validator-type-float": "numero",
 	"validator-type-boolean": "si/no",
 	"validator-type-char": "character",
+	"validator-type-dimension": "numero e unitate dimensional",
 	"validator-type-title": "titulo",
 	"validator-type-string-list": "lista de textos",
 	"validator-type-integer-list": "lista de numeros integre",
