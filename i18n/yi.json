@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Pacha Tchernof",
 			"פוילישער",
 			"පසිඳු කාවින්ද"
 		]
 	},
+	"validator-error": "פֿעלער: $1",
 	"validator-type-string": "טעקסט",
 	"validator-type-title": "קעפל",
 	"validator-listerrors-errors": "פֿעלער",
