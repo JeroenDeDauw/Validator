@@ -36,13 +36,11 @@ Validator 2.2:
 
 Get the Validator code, either via git, or some other means. Also get all dependencies.
 You can find a list of the dependencies in the "require" section of the composer.json file.
-Load all dependencies and the load the Validator extension by including its entry point:
-Validator.php.
 
-Simply include the entry point in your LocalSettings.php file:
+Simply load the extension in your LocalSettings.php file with:
 
 ```php
-require_once( "$IP/extensions/Validator/Validator.php" );
+wfLoadExtension( 'Validator' );
 ```
 
 ## Authors
@@ -53,6 +51,11 @@ to support [Maps](https://github.com/JeroenDeDauw/Maps)
 and [Semantic MediaWiki](https://www.semantic-mediawiki.org/).
 
 ## Release notes
+
+### Version 2.2.5 (2021-04-16)
+
+* Convert to ExtensionRegistry
+* Dropped support for MediaWiki older than 1.35
 
 ### Version 2.2.3 (2020-11-19)
 
