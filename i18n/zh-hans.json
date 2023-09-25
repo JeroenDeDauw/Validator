@@ -3,6 +3,7 @@
 		"authors": [
 			"Diskdance",
 			"Hydra",
+			"LittlePaw365",
 			"Liuxinyu970226",
 			"Richarddong",
 			"Shirayuki",
@@ -58,7 +59,7 @@
 	"validator-describe-par-pre": "允许您获取文档实际的wikitext，而不需要将其呈现在页面上。",
 	"validator-describe-par-language": "要在描述中显示的语言",
 	"validator-describe-listtype": "$1项列表",
-	"validator-describe-empty": "空白",
+	"validator-describe-empty": "空",
 	"validator-describe-required": "必填",
 	"validator-describe-header-parameter": "参数",
 	"validator-describe-header-aliases": "别名",
