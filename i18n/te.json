@@ -19,6 +19,7 @@
 	"validator-describe-descriptionmsg": "'''వివరణ''': $1",
 	"validator-describe-listtype": "$1 అంశాల జాబితా",
 	"validator-describe-required": "తప్పనిసరి",
+	"validator-describe-header-parameter": "పరామితి",
 	"validator-describe-header-aliases": "మారుపేర్లు",
 	"validator-describe-header-type": "రకం",
 	"validator-describe-header-default": "అప్రమేయం",
