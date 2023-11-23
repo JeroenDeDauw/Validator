@@ -6,7 +6,8 @@
 			"Farras",
 			"Irwangatot",
 			"IvanLanin",
-			"Kenrick95"
+			"Kenrick95",
+			"Veracious"
 		]
 	},
 	"validator-desc": "Pustaka pemroses parameter secara deklaratif",
@@ -34,7 +35,7 @@
 	"validator-type-boolean-list": "daftar ya/tidak",
 	"validator-type-char-list": "daftar karakter",
 	"validator-type-title-list": "daftar judul",
-	"validator-listerrors-errors": "Kesalahan",
+	"validator-listerrors-errors": "Galat-galat",
 	"validator-listerrors-minor": "Kecil",
 	"validator-listerrors-low": "Rendah",
 	"validator-listerrors-normal": "Normal",
