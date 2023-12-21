@@ -9,6 +9,7 @@
 			"Liuxinyu970226",
 			"Mark85296341",
 			"Shirayuki",
+			"SunAfterRain",
 			"Tranve",
 			"Wrightbus",
 			"捍粵者"
@@ -95,10 +96,10 @@
 	"validator_list_error_invalid_range": "參數 $1 所有的參數值都必須介於 $2 與 $3 之間。",
 	"validator-list-error-invalid-regex": "參數 $1 所有的參數值都必須符合此正規表示法：$2。",
 	"validator_list_error_invalid_argument": "參數$1有無效參數值",
-	"validator-list-error-accepts-only": "參數$1有無效參數值，只接受參數值$2",
+	"validator-list-error-accepts-only": "參數$1的一個或多個值無效。它只接受{{PLURAL:$3|該值|這些值}}：$2。",
 	"validator-list-error-accepts-only-omitted": "參數$1有一個或多個值無效，只接受的{{PLURAL:$3|參數值}}為：$2（且略過$4個{{PLURAL:$4|參數值}}）。",
 	"validator_error_accepts_only": "參數 $1 的參數值 \"$4\" 無效，只接受{{PLURAL:$3|參數值|參數值}}：$2。",
-	"validator-error-accepts-only-omitted": "參數$1的參數值「$2」無效，只接受參數值$3（且略過$4個參數值）。",
+	"validator-error-accepts-only-omitted": "值「$2」對於參數$1無效。它只接受{{PLURAL:$5|該值|這些值}}：$3（及$4個省略的{{PLURAL:$4|值}}）。",
 	"validator_list_omitted": "已略過 $1 個{{PLURAL:$2|參數值}}。",
 	"validator-message-nodesc": "未提供任何描述"
 }
