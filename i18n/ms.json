@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Anakmalaysia"
+			"Anakmalaysia",
+			"Hakimi97"
 		]
 	},
+	"validator-type-string": "teks",
 	"validator-describe-descriptionmsg": "'''Keterangan''': $1",
 	"validator-describe-empty": "kosong",
 	"validator-describe-required": "wajib",
