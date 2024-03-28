@@ -3,6 +3,7 @@
 		"authors": [
 			"Armin1392",
 			"Beginneruser",
+			"Ebraminio",
 			"Mjbmr",
 			"پاناروما"
 		]
@@ -17,7 +18,7 @@
 	"validator-error-omitted": "{{PLURAL:$2|مقدار \"$1\" |مقدارها \"$1\"}} حذف شده‌اند.",
 	"validator-error-problem": "مشکلی با پارامتر $1 وجود داشت.",
 	"validator_error_unknown_argument": "$1 یک پارامتر معتبر نیست.",
-	"validator_error_required_missing": "پارامتر مورد نیاز \"$1\" ارائه نشده‌است.",
+	"validator_error_required_missing": "پارامتر مورد نیاز \"$1\" ارائه نشده است.",
 	"validator-error-override-argument": "سعی به لغو پارامتر $1 (مقدارː$2) با مقدار \"$3\"",
 	"validator-type-string": "متن",
 	"validator-type-integer": "عدد صحیح",
@@ -37,7 +38,7 @@
 	"validator-listerrors-normal": "عادی",
 	"validator-listerrors-high": "زیاد",
 	"validator-listerrors-fatal": "کشنده",
-	"validator-listerrors-description": "فهرست خطاهایی (و هشدارهایی) که در قلاب تجزیه‌کننده از طریق اعتبارسنج افزوده شده.\nفقط فهرست‌ها برای افزودن قلاب‌های تجزیه‌کننده بالای جایی که فهرست خطاها قرار داده شده‌است؛\nقرار دادن فهرست خطاها در نزدیکی پایین صفحه برای دریافت همه خطاها.",
+	"validator-listerrors-description": "فهرست خطاهایی (و هشدارهایی) که در قلاب تجزیه‌کننده از طریق اعتبارسنج افزوده شده.\nفقط فهرست‌ها برای افزودن قلاب‌های تجزیه‌کننده بالای جایی که فهرست خطاها قرار داده شده است؛\nقرار دادن فهرست خطاها در نزدیکی پایین صفحه برای دریافت همه خطاها.",
 	"validator-listerrors-par-minseverity": "حداقل شدت مسئله برای فهرست شدن.",
 	"validator-describe-description": "تولید اسناد برای یک یا چند قلاب‌های تجزیه‌کننده تعریف شده از طریق اعتبارسنج.",
 	"validator-describe-notfound": "هیچ قلاب تجزیه‌کننده‌ای که \"$1\" را کنترل کند وجود ندارد.",
