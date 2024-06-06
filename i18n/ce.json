@@ -8,7 +8,7 @@
 	"validator-error": "ГӀалат: $1",
 	"validator-fatal-error": "Кхераме гӀалат: $1",
 	"validator-warning-adittional-errors": "… и {{PLURAL:$1|1=кхин цхьа бала|кхин маситта баланаш}}.",
-	"validator-type-string": "йоза",
+	"validator-type-string": "текст",
 	"validator-type-integer": "дуьззина терахь",
 	"validator-type-float": "терахь",
 	"validator-type-boolean": "хӀаъ/хӀан-хӀа",
