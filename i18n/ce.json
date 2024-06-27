@@ -14,7 +14,7 @@
 	"validator-type-boolean": "хӀаъ/хӀан-хӀа",
 	"validator-type-char": "хьаьрк",
 	"validator-type-title": "цӀе",
-	"validator-type-string-list": "йозанийн могӀам",
+	"validator-type-string-list": "текстийн могӀам",
 	"validator-type-integer-list": "дуьззина терхьийн могӀам",
 	"validator-type-float-list": "терхьийн могӀам",
 	"validator-type-boolean-list": "могӀам хӀаъ/хӀан-хӀа",

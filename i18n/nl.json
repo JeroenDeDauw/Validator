@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Jeroen De Dauw",
+			"McDutchie",
 			"SPQRobin",
 			"Siebrand"
 		]
@@ -23,6 +24,7 @@
 	"validator-type-float": "getal",
 	"validator-type-boolean": "ja / nee",
 	"validator-type-char": "teken",
+	"validator-type-dimension": "getal en maateenheid",
 	"validator-type-title": "paginanaam",
 	"validator-type-string-list": "lijst met teksten",
 	"validator-type-integer-list": "lijst met gehele getallen",
