@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elefentiste",
+			"Robin van der Vliet"
+		]
+	},
+	"validator-error": "Era: $1",
+	"validator-type-string": "testo",
+	"validator-type-float": "numero",
+	"validator-type-boolean": "si/no",
+	"validator-type-char": "sinia",
+	"validator-type-title": "titulo",
+	"validator-type-string-list": "lista de testos",
+	"validator-type-integer-list": "lista de interos",
+	"validator-type-float-list": "lista de numeros",
+	"validator-type-boolean-list": "lista de si/no",
+	"validator-type-title-list": "lista de titulos",
+	"validator-listerrors-errors": "Eras",
+	"validator-listerrors-minor": "Minor",
+	"validator-listerrors-low": "Basa",
+	"validator-listerrors-normal": "Normal",
+	"validator-listerrors-high": "Alta",
+	"validator-describe-descriptionmsg": "'''Descrive''': $1",
+	"validator-describe-empty": "vacua",
+	"validator-describe-header-parameter": "Parametre",
+	"validator-describe-header-description": "Descrive",
+	"validator-describe-parameters": "Parametres",
+	"validator-describe-syntax": "Sintatica"
+}
