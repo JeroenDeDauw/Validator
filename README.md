@@ -52,10 +52,11 @@ and [Semantic MediaWiki](https://www.semantic-mediawiki.org/).
 
 ## Release notes
 
-### Version 2.2.5 (2021-04-16)
+### Version 2.2.5 (2024-11-11)
 
 * Convert to ExtensionRegistry
 * Dropped support for MediaWiki older than 1.35
+* Added support for recent MediaWiki versions
 
 ### Version 2.2.3 (2020-11-19)
 
