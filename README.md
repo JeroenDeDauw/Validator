@@ -47,8 +47,8 @@ wfLoadExtension( 'Validator' );
 
 Validator has been written by
 [Jeroen De Dauw](https://www.mediawiki.org/wiki/User:Jeroen_De_Dauw)
-to support [Maps](https://github.com/JeroenDeDauw/Maps)
-and [Semantic MediaWiki](https://www.semantic-mediawiki.org/).
+to support [Maps](https://maps.extension.wiki)
+and [Semantic MediaWiki](https://professional.wiki/en/semantic-mediawiki-services).
 
 ## Release notes
 
