@@ -5,7 +5,7 @@
 		"[https://www.entropywins.wtf/mediawiki Jeroen De Dauw]",
 		"[https://professional.wiki/ Professional.Wiki]"
 	],
-	"url": "https://www.mediawiki.org/wiki/Extension:Pipe_Escape",
+	"url": "https://github.com/JeroenDeDauw/Validator?tab=readme-ov-file#validator",
 	"descriptionmsg": "validator-desc",
 	"license-name": "GPL-2.0-or-later",
 	"type": "other",
