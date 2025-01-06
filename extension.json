@@ -19,7 +19,11 @@
 		]
 	},
 	"AutoloadClasses": {
+		"ParserHook": "src/legacy/ParserHook.php",
 		"ValidatorHooks": "src/ValidatorHooks.php"
+	},
+	"AutoloadNamespaces": {
+		"ParamProcessor\\": "src/ParamProcessor/"
 	},
 	"Hooks": {
 		"UnitTestsList": "ValidatorHooks::onUnitTestsList"
