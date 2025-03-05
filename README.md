@@ -1,5 +1,7 @@
 # Validator
 
+This project is obsolete and unmaintained. Please use [ParamProcessor library](https://github.com/JeroenDeDauw/ParamProcessor) instead.
+
 The Validator MediaWiki extension, provides a parameter processing
 framework that provides a way to declaratively define a set of parameters and how they
 should be processed. It can take such declarations together with a list of raw
@@ -10,8 +12,8 @@ The functionality provided by this extension largely comes from the
 
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/JeroenDeDauw/Validator/ci.yml?branch=master)](https://github.com/JeroenDeDauw/Validator/actions?query=workflow%3ACI)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/JeroenDeDauw/Validator/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/JeroenDeDauw/Validator/?branch=master)
-[![Latest Stable Version](https://poser.pugx.org/mediawiki/validator/version.png)](https://packagist.org/packages/mediawiki/validator)
-[![Download count](https://poser.pugx.org/mediawiki/validator/d/total.png)](https://packagist.org/packages/mediawiki/validator)
+[![Latest Stable Version](https://poser.pugx.org/mediawiki/validator/v/stable)](https://packagist.org/packages/mediawiki/validator)
+[![Download count](https://poser.pugx.org/mediawiki/validator/downloads)](https://packagist.org/packages/mediawiki/validator)
 
 ## Installation
 
